@@ -3,7 +3,7 @@
 }
 #App {
     position: relative;
-    min-height: 110vh;
+    min-height: 100vh;
     padding-bottom: 30px; /* the place for the Footer */
 }
 * div {
