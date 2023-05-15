@@ -17,7 +17,7 @@ export default function Start() {
         
             <h3>Rejestracja</h3>
             <p>+48 575 857 130</p>
-            <p>adres email</p>
+            <p>anetakubik84@gmail.com</p>
         </div>
     )
 }

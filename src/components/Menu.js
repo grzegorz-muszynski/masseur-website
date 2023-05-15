@@ -8,6 +8,7 @@ export default function Menu() {
         <div className="Menu">
             <ul>
                 <li><NavLink to='/'>Start</NavLink></li>
+                <li><NavLink to='/discounts'>Promocje</NavLink></li>
                 <li><NavLink to='/offer'>Oferta</NavLink></li>
                 <li><NavLink to='/prices'>Cennik</NavLink></li>
                 <li><NavLink to='/vouchery'>Vouchery</NavLink></li>
