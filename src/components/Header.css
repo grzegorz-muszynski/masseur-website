@@ -1,0 +1,8 @@
+.Header video {
+    /* height: 50%; */
+    width: 100%;
+    object-fit: cover;
+    height: 400px;
+    position: relative;
+    z-index: 2;
+}

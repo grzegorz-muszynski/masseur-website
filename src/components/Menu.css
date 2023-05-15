@@ -1,0 +1,51 @@
+@font-face {
+    font-family: cinzel;
+    src: url(../assets/cinzel.regular.ttf);
+}
+
+* {
+    /* border: 1px solid red; */
+}
+.Menu {
+    font-family: cinzel;
+    font-size: 22px;
+    font-weight: 600;
+    width: 250px;
+    /* background-color: hsl(300, 100%, 25%); */
+    background-color: black;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    /* border: 2px solid hsl(51, 100%, 30%); */
+    /* border: 2px solid #da9b13; */
+    box-shadow: 10px 10px 10px black;
+    border-left: none;
+
+    position: fixed;
+    top: 400px;
+    z-index: 2;
+    display: inline-block;
+}
+.Menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px;
+}
+.Menu li {
+    text-align: center;
+    padding: 10px 0;
+}
+.Menu li a {
+    text-decoration: none;
+    color: white;
+    padding: 2px 8px;
+}
+.Menu li a:hover {
+    /* background-color: hsl(300, 100%, 15%); */
+    background-color: hsl(41, 84%, 26%);
+    transition: 0.5s background-color;
+    border-radius: 10px;
+}
+.Menu .active {
+    color: hsl(41, 84%, 46%);
+    font-weight: 1000;
+}
