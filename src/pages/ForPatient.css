@@ -1,0 +1,17 @@
+.ForPatient {
+    max-width: 1200px;
+    margin-left: 430px;
+    padding-right: 10px;
+}
+.ForPatient h1 {
+    color: hsl(201, 63%, 26%);
+    font-weight: bold;
+}
+.ForPatient p {
+    color: hsl(201, 63%, 26%);
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+.ForPatient ul {
+    margin-top: 0;
+}

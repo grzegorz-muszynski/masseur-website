@@ -1,0 +1,29 @@
+.Vouchers {
+    width: 700px;
+    height: 400px;
+    margin: 10px auto;
+    text-align: justify;
+}
+.Vouchers h1 {
+    text-align: center;
+    color: hsl(201, 63%, 26%);
+}
+.Vouchers p {
+    text-indent: 10px;
+}
+.Vouchers p a {
+    font-weight: 1000;
+    color: hsl(201, 63%, 28%);
+    text-underline-offset: 2px;
+}
+.Vouchers p a:hover {
+    color:hsl(201, 63%, 46%);
+    transition: color 0.5s;
+}
+.Vouchers__cards {
+    color: hsl(201, 63%, 26%);
+    font-weight: 1000;
+    font-size: 20px;
+    margin: 10px 0;
+    text-align: center;
+}

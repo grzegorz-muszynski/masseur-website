@@ -1,13 +1,25 @@
 .Start {
-    width: 800px;
+    width: 600px;
     /* margin: 0 auto; */
     display: inline-block;
     text-align: center;
     position: relative;
     z-index: 3;
-    margin-left: calc(50% - 400px);
+    margin-left: calc(50% - 300px);
 }
 .Start span {
     font-weight: 1000;
-    color: hsl(41, 84%, 46%);
+    /* color: hsl(41, 84%, 46%); */
+    /* color: #9BC216; */
+    color: hsl(201, 63%, 28%);
+}
+.Start p a {
+    font-weight: 1000;
+    color: hsl(201, 63%, 28%);
+    text-underline-offset: 2px;
+}
+.Start p a:hover {
+    /* color:hsl(74, 80%, 25%); */
+    color:hsl(201, 63%, 46%);
+    transition: color 0.5s;
 }

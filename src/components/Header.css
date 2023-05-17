@@ -2,7 +2,22 @@
     /* height: 50%; */
     width: 100%;
     object-fit: cover;
-    height: 400px;
+    height: 500px;
     position: relative;
     z-index: 2;
+    filter: brightness(60%);
+}
+.Header img {
+    width: 600px;
+    height: 300px;
+}
+.Header .Marka {
+    position: absolute;
+    top: 0;
+    z-index: 3;
+    width: 500px;
+    height: 300px;
+    display: block;
+    margin-top: 100px;
+    margin-left: calc(50vw - 250px);
 }

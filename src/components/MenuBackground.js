@@ -4,6 +4,6 @@ import "./MenuBackground.css";
 export default function MenuBackground() {
 
     return (
-        <div className="MenuBackground">fooo</div>
+        <div className="MenuBackground"></div>
     )
 }

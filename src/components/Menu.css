@@ -8,20 +8,21 @@
 }
 .Menu {
     font-family: cinzel;
-    font-size: 22px;
     font-weight: 600;
-    width: 250px;
-    /* background-color: hsl(300, 100%, 25%); */
-    background-color: black;
+    /* font-family: prata; */
+    /* font-weight: 300; */
+    font-size: 22px;
+    width: 300px;
+    /* background-color: black; */
+    /* background-color: hsl(201, 63%, 46%); */
+    background-color: hsl(74, 80%, 31%);
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
-    /* border: 2px solid hsl(51, 100%, 30%); */
-    /* border: 2px solid #da9b13; */
     box-shadow: 10px 10px 10px black;
     border-left: none;
 
     position: fixed;
-    top: 400px;
+    top: 500px;
     z-index: 2;
     display: inline-block;
 }
@@ -41,11 +42,15 @@
 }
 .Menu li a:hover {
     /* background-color: hsl(300, 100%, 15%); */
-    background-color: hsl(41, 84%, 26%);
+    /* background-color: hsl(41, 84%, 26%); */
+    background-color: hsl(201, 63%, 46%);
     transition: 0.5s background-color;
     border-radius: 10px;
 }
 .Menu .active {
-    color: hsl(41, 84%, 46%);
+    /* color: hsl(41, 84%, 46%); */
+    color: hsl(201, 63%, 26%);
+    font-size: 23px;
+    /* font-weight: bold; */
     font-weight: 1000;
 }

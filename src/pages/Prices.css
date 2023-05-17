@@ -7,15 +7,20 @@
     width: 570px;
     margin-top: 5px;
 }
+.Prices table tr:nth-child(odd) {
+    background-color: hsl(74, 80%, 25%);
+}
 .Prices table tr:nth-child(even) {
-    background-color: hsl(285, 6%, 24%);
-    border-color: hsl(285, 6%, 21%);
+    background-color: hsl(201, 63%, 28%);
 }
 .Prices td[colspan="3"] {
     text-align: center;
-    color: hsl(41, 84%, 46%);
+    /* color: hsl(41, 84%, 46%); */
+    color: hsl(201, 63%, 24%);
+    background-color: hsl(74, 80%, 36%);
     padding-left: 25px;
-    font-size: 20px;
+    font-size: 23px;
+    font-weight: bold;
 }
 .Prices tr:nth-child(2n) {
     /* background-color: white; */
@@ -28,7 +33,7 @@
 .Prices tr :nth-child(2) {
     text-align: right;
 }
-#Prices__swimming {
+/* #Prices__swimming {
     width: 450px;
 }
 #Prices__swimming td {
@@ -42,4 +47,4 @@
 }
 #Prices__swimming tr :nth-child(1) {
     text-align: center;
-}
+} */

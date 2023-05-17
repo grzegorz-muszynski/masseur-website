@@ -15,21 +15,21 @@ export default function Prices() {
                     <td colspan="3">Masaże przeciwbólowe, medyczne</td>
                 </tr>
                 <tr>
-                    <td>Masaż klasyczny przeciwbólowy - Aneta</td>
+                    <td>Masaż klasyczny przeciwbólowy</td>
                     <td>30 min.</td>
                     <td>70 zł</td>
                 </tr>
                 <tr>
-                    <td>Masaż klasyczny przeciwbólowy - Aneta</td>
+                    <td>Masaż klasyczny przeciwbólowy</td>
                     <td>45 min.</td>
                     <td>100 zł</td>
                 </tr>
                 <tr>
-                    <td>Masaż klasyczny przeciwbólowy - Aneta</td>
+                    <td>Masaż klasyczny przeciwbólowy</td>
                     <td>60 min.</td>
                     <td>130 zł</td>
                 </tr>
-                <tr>
+                {/* <tr>
                     <td>Masaż klasyczny przeciwbólowy - Dmytro</td>
                     <td>30 min.</td>
                     <td>70 zł</td>
@@ -43,7 +43,7 @@ export default function Prices() {
                     <td>Masaż klasyczny przeciwbólowy - Dmytro</td>
                     <td>60 min.</td>
                     <td>130 zł</td>
-                </tr>
+                </tr> */}
                 <tr>
                     <td>Masaż tkanek głębokich (MTG) - Aneta</td>
                     <td>30 min.</td>
@@ -70,21 +70,21 @@ export default function Prices() {
                     <td colspan="3">Masaże profilaktyczne</td>
                 </tr>
                 <tr>
-                    <td>Masaż profilaktyczny - Aneta</td>
+                    <td>Masaż profilaktyczny</td>
                     <td>30 min.</td>
                     <td>100 zł</td>
                 </tr>
                 <tr>
-                    <td>Masaż profilaktyczny - Aneta</td>
+                    <td>Masaż profilaktyczny</td>
                     <td>45 min.</td>
                     <td>130 zł</td>
                 </tr>
                 <tr>
-                    <td>Masaż profilaktyczny - Aneta</td>
+                    <td>Masaż profilaktyczny</td>
                     <td>60 min.</td>
                     <td>150 zł</td>
                 </tr>
-                <tr>
+                {/* <tr>
                     <td>Masaż profilaktyczny - Dmytro</td>
                     <td>30 min.</td>
                     <td>100 zł</td>
@@ -98,7 +98,7 @@ export default function Prices() {
                     <td>Masaż profilaktyczny - Dmytro</td>
                     <td>60 min.</td>
                     <td>150 zł</td>
-                </tr>
+                </tr> */}
                 <tr>
                     <td>Masaż gorącymi kamieniamni - Aneta</td>
                     <td>60 min.</td>
@@ -160,7 +160,7 @@ export default function Prices() {
                     <td>125 zł</td>
                 </tr>
             </table>
-            <table id="Prices__swimming">
+            {/* <table id="Prices__swimming">
                 <tr>
                     <td colspan="3">Pływanie</td>
                 </tr>
@@ -184,7 +184,7 @@ export default function Prices() {
                     <td>45 min.</td>
                     <td>110 zł</td>
                 </tr>
-            </table>
+            </table> */}
         </div>
     )
 }

@@ -2,12 +2,25 @@
     width: 800px;
     margin: 0 auto;
 }
-.Offer h2 {
+.Offer h1 {
+    color: hsl(201, 63%, 28%);
     text-align: center;
 }
+/* Below there must be double selection - otherwise the text-align is overwritten by 
+    .Offer p {
+        text-align: justify;
+    }
+*/
+.Offer .Offer__title {
+    font-size: 20px;
+    text-align: center;
+}
+.Offer__group-title {
+    font-size: 21px;
+    color: hsl(201, 63%, 28%);
+    font-weight: 1000;
+}
 .Offer ul li{
-    /* list-style-type: none; */
-    /* padding: 0 0 0 4px; */
     padding-top: 6px;
 }
 .Offer p {
