@@ -1,0 +1,100 @@
+* {
+    /* border: 1px solid red;     */
+}
+#Contact {
+    width: 800px;
+    margin: 0 auto;
+    /* margin-left: calc(50% - 400px); */
+}
+#Contact__desc,
+#Contact h1 {
+    text-align: center;
+}
+#Contact h1 {
+    color: hsl(201, 63%, 26%);
+}
+#Contact a {
+    font-weight: 1000;
+    text-decoration: none;
+    display: block;
+    width: 300px;
+    text-align: center;
+    margin: 15px auto;
+    border-radius: 15px;
+    padding: 5px 8px;
+}
+#Contact a[href*="odnowa"] {
+    background-color: hsl(201, 63%, 46%);
+    color: hsl(201, 63%, 16%);
+}
+#Contact a[href*="odnowa"]:hover {
+    background-color: hsl(201, 63%, 66%);
+    transition: background-color 0.5s;
+}
+#Contact a[href*="angel"] {
+    background-color: hsl(300, 100%, 35%);
+    color: hsl(300, 100%, 15%);
+}
+#Contact a[href*="angel"]:hover {
+    background-color: hsl(300, 100%, 65%);
+    transition: background-color 0.5s;
+}
+.Contact__wrapper {
+    width: 256px;
+    height: 30px;
+    display: flex;
+    margin: 10px auto;
+    /* justify-content: center; */
+}
+.Contact__wrapper img,
+.Contact__wrapper p {
+    display: inline-block;
+}
+.Contact__wrapper img {
+    height: 20px;
+    padding-top: 5px;
+}
+.Contact__wrapper p {
+    line-height: 30px;
+    padding-left: 10px;
+    margin: 0;
+}
+#Contact form {
+    /* width: 600px; */
+    height: 400px;
+}
+#Contact form input {
+    font-family: cinzel;
+    display: inline-block;
+    width: 255px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin: 1px 1px;
+    line-height: 20px;
+}
+#Contact form textarea {
+    font-family: cinzel;
+    height: 160px;
+    width: 780px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin: 1px;
+    line-height: 20px;
+}
+#Contact form button {
+    font-family: cinzel;
+    display: block;
+    margin: 10px auto;
+    color: hsl(201, 63%, 16%);
+    background-color: hsl(201, 63%, 46%);
+    border: 2px solid hsl(201, 63%, 16%);
+    border-radius: 20px;
+    padding: 5px 12px;
+    font-weight: 1000;
+    font-size: 16px;
+}
+#Contact form button:hover {
+    background-color: hsl(201, 63%, 66%);
+    transition: 0.5s background-color;
+    cursor: grab;
+}

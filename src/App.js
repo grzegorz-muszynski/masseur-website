@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import "./App.css";
 
 import About from './pages/About';
+import Contact from './pages/Contact';
 import Footer from './components/Footer';
 import ForPatient from './pages/ForPatient';
 import Header from './components/Header';
@@ -29,9 +30,10 @@ function App() {
           <Route path='/forpatient' element={<ForPatient />} />
           <Route path='/vouchers' element={<Vouchers />} />
           <Route path='/location' element={<Location />} />
+          <Route path='/contact' element={<Contact />} />
           {/* 
-          <Route path='/opinions' element={<Opinions />} />
-          <Route path='/contact' element={<Contact />} /> */}
+          <Route path='/opinions' element={<Opinions />} /> 
+          */}
         </Routes>
         <Footer />
       </div>

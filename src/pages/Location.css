@@ -3,7 +3,7 @@
 }    
 #Location {
     width: 1000px;
-    margin-left: 370px;
+    margin-left: 470px;
 }
 #Location h2 {
     text-align: center;
@@ -15,23 +15,18 @@
     max-width: 510px;
     margin: 10px auto 20px;
 }
-/* #Location__desc span {
-
-} */
 #Location__wrapper {
     width: 100%;
 }
 #Location__wrapper__miechow,
 #Location__wrapper__bibice {
     width: 49%;
-    /* height: 200px; */
     display: inline-block;
 }
 
 #Location__wrapper__bibice {
     border-left: 3px solid hsl(240, 100%, 30%);
     padding-left: 4px;
-    /* margin-left: 4px; */
 }
 #Location__wrapper__miechow {
     padding-right: 4px;
