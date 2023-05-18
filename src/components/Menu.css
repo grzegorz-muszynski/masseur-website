@@ -41,14 +41,11 @@
     padding: 2px 8px;
 }
 .Menu li a:hover {
-    /* background-color: hsl(300, 100%, 15%); */
-    /* background-color: hsl(41, 84%, 26%); */
     background-color: hsl(201, 63%, 46%);
     transition: 0.5s background-color;
     border-radius: 10px;
 }
 .Menu .active {
-    /* color: hsl(41, 84%, 46%); */
     color: hsl(201, 63%, 26%);
     font-size: 23px;
     /* font-weight: bold; */

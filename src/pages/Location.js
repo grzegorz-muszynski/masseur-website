@@ -21,7 +21,7 @@ export default function Location() {
                     <p>Angel Nails / Odnowa</p>
                     <p>+48 514 761 539</p>
                     <p>ul. Warszawska 168</p>
-                    <p>32-086 Węgrzce</p>
+                    <p>32-086 Bibice</p>
                     <p><a href="https://booksy.com/pl-pl/180086_angel-nails-piekne-paznokcie_paznokcie_10022_zielonki/staffer/394262#ba_s=bd_1">Zarezerwuj on-line</a></p>
 
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d743.7676570603486!2d19.96895587413229!3d50.129893138801215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165174663a4bcf%3A0xc0d7041e4b631d5e!2sAngel%20Nails%20%2F%20Odnowa!5e1!3m2!1spl!2spl!4v1684327059806!5m2!1spl!2spl" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
