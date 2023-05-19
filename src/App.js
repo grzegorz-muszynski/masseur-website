@@ -11,6 +11,7 @@ import Location from './pages/Location';
 import Menu from './components/Menu';
 import MenuBackground from './components/MenuBackground';
 import Offer from './pages/Offer';
+import Opinions from './pages/Opinions';
 import Prices from './pages/Prices';
 import Start from './pages/Start';
 import Vouchers from './pages/Vouchers';
@@ -31,8 +32,8 @@ function App() {
           <Route path='/vouchers' element={<Vouchers />} />
           <Route path='/location' element={<Location />} />
           <Route path='/contact' element={<Contact />} />
-          {/* 
           <Route path='/opinions' element={<Opinions />} /> 
+          {/* 
           */}
         </Routes>
         <Footer />
