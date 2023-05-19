@@ -45,22 +45,22 @@ export default function Prices() {
                     <td>130 zł</td>
                 </tr> */}
                 <tr>
-                    <td>Masaż tkanek głębokich (MTG) - Aneta</td>
+                    <td>Masaż tkanek głębokich (MTG)</td>
                     <td>30 min.</td>
                     <td>70 zł</td>
                 </tr>
                 <tr>
-                    <td>Manualny drenaż limfatycznny (MDL) - Aneta</td>
+                    <td>Manualny drenaż limfatycznny (MDL)</td>
                     <td>45 min.</td>
                     <td>100 zł</td>
                 </tr>
                 <tr>
-                    <td>Manualny drenaż limfatycznny (MDL) - Aneta</td>
+                    <td>Manualny drenaż limfatycznny (MDL)</td>
                     <td>60 min.</td>
                     <td>120 zł</td>
                 </tr>
                 <tr>
-                    <td>Masaż leczniczy - Aneta</td>
+                    <td>Masaż leczniczy</td>
                     <td>30 min.</td>
                     <td>70 zł</td>
                 </tr>
@@ -100,12 +100,12 @@ export default function Prices() {
                     <td>150 zł</td>
                 </tr> */}
                 <tr>
-                    <td>Masaż gorącymi kamieniamni - Aneta</td>
+                    <td>Masaż gorącymi kamieniamni</td>
                     <td>60 min.</td>
                     <td>130 zł</td>
                 </tr>
                 <tr>
-                    <td>Masaż balijski - Aneta</td>
+                    <td>Masaż balijski</td>
                     <td>60 min.</td>
                     <td>130 zł</td>
                 </tr>
@@ -115,12 +115,12 @@ export default function Prices() {
                     <td colspan="3">Masaże dla sportowców</td>
                 </tr>
                 <tr>
-                    <td>Masaż sportowy - Aneta</td>
+                    <td>Masaż sportowy</td>
                     <td>30 min.</td>
                     <td>70 zł</td>
                 </tr>
                 <tr>
-                    <td>Masaż kreolski (bambusami) - Aneta</td>
+                    <td>Masaż kreolski (bambusami)</td>
                     <td>30 min.</td>
                     <td>60 zł</td>
                 </tr>
@@ -130,22 +130,22 @@ export default function Prices() {
                     <td colspan="3">Masaże odprężające, pielęgnacyjne</td>
                 </tr>
                 <tr>
-                    <td>Masaż bańką chińską - Aneta</td>
+                    <td>Masaż bańką chińską</td>
                     <td>30 min.</td>
                     <td>65 zł</td>
                 </tr>
                 <tr>
-                    <td>Masaż bańką chińską - Aneta</td>
+                    <td>Masaż bańką chińską</td>
                     <td>45 min.</td>
                     <td>80 zł</td>
                 </tr>
-                <tr>
+                {/* <tr>
                     <td>Masaż bańką chińską - Dmytro</td>
                     <td>30 min.</td>
                     <td>65 zł</td>
-                </tr>
+                </tr> */}
                 <tr>
-                    <td>Masaż Kobido face - Aneta</td>
+                    <td>Masaż Kobido face</td>
                     <td>90 min.</td>
                     <td>160 zł</td>
                 </tr>
