@@ -1,4 +1,32 @@
 #Opinions {
+    margin-top: 20px;
     width: 900px;
-    margin-left: 380px;
+    margin-left: 480px;
+    font-size: 21px;
+}
+#Opinions h2 {
+    text-align: center;
+    color: hsl(201, 63%, 26%);
+    font-size: 28px;
+    width: 700px;
+    margin: 10px auto 30px;
+}
+#Opinions img {
+    width: 800px;
+    margin: 10px auto;
+    display: block;
+}
+.Testimonial__desc {
+    margin: 0;
+    
+}
+.Testimonial__date {
+    text-align: right;
+    margin: 0 0 10px;
+}
+#Opinions__separator,
+.Testimonial div {
+    text-align: center;
+    font-size: 35px;
+    color: hsl(201, 63%, 26%);
 }
