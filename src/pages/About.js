@@ -49,6 +49,8 @@ export default function About() {
 
             <p id="About__biogram">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer gravida ligula eget tincidunt euismod. Sed pulvinar orci justo, vitae sagittis nisi blandit ut. Morbi ut mi blandit, pretium arcu lacinia, ornare urna. Integer gravida ex in magna imperdiet, eget elementum nulla finibus. Aliquam convallis velit magna, ac hendrerit nibh lobortis sit amet. Proin quis dictum velit. Nunc odio dui, pellentesque ut diam at, dignissim malesuada neque. Nunc sed pulvinar turpis, a tempus nunc. Morbi fringilla dapibus nibh, a bibendum libero ornare in. Ut dictum nec leo nec accumsan. Aliquam cursus tempor urna, et pharetra purus. In quis luctus libero. Nam arcu velit, accumsan ac ante vitae, ullamcorper vestibulum tellus. Suspendisse dictum consequat nulla, sit amet mollis leo vehicula eget.</p>
 
+            <h1 id="About__secondTitle">Certyfikaty</h1>
+
             <div id="About__grid">
                 {certsQuantity.map((number) => (
                     <img 
