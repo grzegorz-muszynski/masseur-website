@@ -1,3 +1,68 @@
-.About {
-    width: 800px;
+* {
+    /* border: 1px solid red; */
+}
+#About {
+    margin: 20px 40px 0 250px;
+}
+#About h1 {
+    text-align: center;
+    color: hsl(201, 63%, 26%);
+}
+#About__biogram {
+    width: 90%;
+    max-width: 900px;
+    /* text-align: center; */
+    text-align: justify;
+    margin: 20px auto 60px;
+    text-indent: 40px;
+}
+#About__grid {
+    display: grid;
+    margin: 20px auto 60px;
+    max-width: 1200px;
+    width: 80%;
+    height: 100%;
+    grid-template: 32% 32% 32% / 19% 19% 19% 19% 19%;
+    gap: 2% 1.25%;
+}
+#About__grid img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+img[data-number="3"] {
+    grid-column-start: 3;
+    grid-row-start: 1;
+    grid-column-end: span 2;
+    grid-row-end: 2;
+}
+
+#About__slider {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    background-color: hsl(0, 0%, 0%, 0.5);
+    width: 100%;
+    height: 100%;
+
+    /* display: flex; <-it's already declared in JS */
+    justify-content: center;
+    align-items: center
+}
+#About__slider img {
+    width: 38%;
+}
+#About__slider .arrow {
+    width: 150px;
+    margin: 20px;
+    position: relative;
+    z-index: 4;
+}
+#About__slider .left {
+    transform: rotate(90deg);
+}
+#About__slider .right {
+    transform: rotate(-90deg);
 }

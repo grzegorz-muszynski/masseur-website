@@ -7,7 +7,7 @@ export default function Opinions() {
     return (
         <div id="Opinions">
             <h2>Przeczytaj opinie i przekonaj się że możesz nam zaufać</h2>
-            <div id="Opinions__separator">* * * * *</div>
+            {/* <div id="Opinions__separator">* * * * *</div> */}
             <Testimonial 
                 text={AllOpinions[0].text} 
                 name={AllOpinions[0].name} 

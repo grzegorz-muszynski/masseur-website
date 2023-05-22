@@ -50,16 +50,26 @@
 #Location__wrapper__miechow a,
 #Location__wrapper__bibice a {
     font-weight: 1000;
-    color: hsl(240, 100%, 30%);
-    border: 1px solid hsl(240, 100%, 30%);
     border-radius: 15px;
-    background-color: hsl(201, 63%, 56%);
     text-decoration: none;
     padding: 5px 8px;
 }
-#Location__wrapper__miechow a:hover,
-#Location__wrapper__bibice a:hover {
+#Location__wrapper__miechow a {
+    border: 1px solid hsl(240, 100%, 30%);
+    background-color: hsl(201, 63%, 56%);
+    color: hsl(240, 100%, 30%);
+}
+#Location__wrapper__bibice a {
+    border: 1px solid hsl(300, 100%, 15%);
+    background-color: hsl(300, 100%, 35%);
+    color: hsl(300, 100%, 15%);
+}
+#Location__wrapper__miechow a:hover {
     background-color: hsl(201, 63%, 76%);
+    transition: background-color 0.5s;
+}
+#Location__wrapper__bibice a:hover {
+    background-color: hsl(300, 100%, 65%);
     transition: background-color 0.5s;
 }
 #Location__wrapper__miechow iframe,

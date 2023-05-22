@@ -33,8 +33,6 @@ function App() {
           <Route path='/location' element={<Location />} />
           <Route path='/contact' element={<Contact />} />
           <Route path='/opinions' element={<Opinions />} /> 
-          {/* 
-          */}
         </Routes>
         <Footer />
       </div>
