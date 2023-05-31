@@ -1,17 +1,15 @@
 .Start {
-    width: 600px;
+    width: 580px;
     /* margin: 0 auto; */
     display: inline-block;
     text-align: center;
     position: relative;
     z-index: 3;
-    margin-left: calc(50% - 300px);
+    margin-left: calc(50% - 290px);
 }
 .Start span {
     font-weight: 1000;
-    /* color: hsl(41, 84%, 46%); */
-    /* color: #9BC216; */
-    color: hsl(201, 63%, 28%);
+    color: hsl(201, 63%, 26%);
 }
 .Start p a {
     font-weight: 1000;
@@ -19,7 +17,12 @@
     text-underline-offset: 2px;
 }
 .Start p a:hover {
-    /* color:hsl(74, 80%, 25%); */
-    color:hsl(201, 63%, 46%);
+    color:hsl(201, 63%, 6%);
     transition: color 0.5s;
+}
+.Start h3 {
+    text-decoration: underline;
+    text-decoration-color: hsl(201, 63%, 28%);
+    text-underline-offset: 6px;
+    font-size: 22px;
 }

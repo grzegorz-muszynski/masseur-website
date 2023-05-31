@@ -17,7 +17,7 @@
     text-underline-offset: 2px;
 }
 .Vouchers p a:hover {
-    color:hsl(201, 63%, 46%);
+    color:hsl(201, 63%, 6%);
     transition: color 0.5s;
 }
 .Vouchers__cards {
