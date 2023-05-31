@@ -1,6 +1,5 @@
 .Start {
     width: 580px;
-    /* margin: 0 auto; */
     display: inline-block;
     text-align: center;
     position: relative;
@@ -11,6 +10,9 @@
     font-weight: 1000;
     color: hsl(201, 63%, 26%);
 }
+.Start p {
+    margin: 10px;
+}
 .Start p a {
     font-weight: 1000;
     color: hsl(201, 63%, 28%);
@@ -20,9 +22,6 @@
     color:hsl(201, 63%, 6%);
     transition: color 0.5s;
 }
-.Start h3 {
-    text-decoration: underline;
+.Start h2 {
     text-decoration-color: hsl(201, 63%, 28%);
-    text-underline-offset: 6px;
-    font-size: 22px;
 }

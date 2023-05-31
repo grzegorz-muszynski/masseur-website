@@ -48,7 +48,6 @@ export default function Opinions() {
 
             <h1>Google</h1>
 
-            <a id="Opinions__button" href='https://www.google.com/search?q=ondowa+miech%C3%B3w&sxsrf=APwXEdfFV9YWczulIK2gx2hPdTqlQfC_5g%3A1685515950070&ei=ru52ZN3wA7Kl5NoP5OueQA&ved=0ahUKEwjd_92b_J7_AhWyElkFHeS1BwgQ4dUDCA8&uact=5&oq=ondowa+miech%C3%B3w&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIHCCMQsAIQJzIHCCMQsAIQJzIHCCMQsAIQJzINCC4QDRCABBDHARCvAToKCCMQsAIQsAMQJzoGCAAQHhANSgQIQRgBULUCWPUDYMoFaAJwAHgAgAGqAYgBzwKSAQMwLjKYAQCgAQHAAQHIAQE&sclient=gws-wiz-serp#lrd=0x4717abf19b7fda49:0xe8494c0bf34587dd,3,,,,'>Dodaj opinię w portalu Google</a>
 
             <div id="Opinions__reviews-google">
                 {/* <img src={require('../assets/testimonials/opinion1.JPG')} />
@@ -79,6 +78,8 @@ export default function Opinions() {
                 </a>
             </div>
 
+            <a id="Opinions__button" href='https://www.google.com/search?q=ondowa+miech%C3%B3w&sxsrf=APwXEdfFV9YWczulIK2gx2hPdTqlQfC_5g%3A1685515950070&ei=ru52ZN3wA7Kl5NoP5OueQA&ved=0ahUKEwjd_92b_J7_AhWyElkFHeS1BwgQ4dUDCA8&uact=5&oq=ondowa+miech%C3%B3w&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIHCCMQsAIQJzIHCCMQsAIQJzIHCCMQsAIQJzINCC4QDRCABBDHARCvAToKCCMQsAIQsAMQJzoGCAAQHhANSgQIQRgBULUCWPUDYMoFaAJwAHgAgAGqAYgBzwKSAQMwLjKYAQCgAQHAAQHIAQE&sclient=gws-wiz-serp#lrd=0x4717abf19b7fda49:0xe8494c0bf34587dd,3,,,,'>Dodaj opinię</a>
+            
             <h1>Booksy</h1>
             <div id='Opinions__reviews-booksy'>
                 <a href='https://booksy.com/pl-pl/86946_odnowa_masaz_10052_miechow'>

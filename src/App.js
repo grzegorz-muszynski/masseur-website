@@ -9,7 +9,6 @@ import ForPatient from './pages/ForPatient';
 import Header from './components/Header';
 import Location from './pages/Location';
 import Menu from './components/Menu';
-import MenuBackground from './components/MenuBackground';
 import Offer from './pages/Offer';
 import Opinions from './pages/Opinions';
 import Prices from './pages/Prices';
@@ -22,7 +21,6 @@ function App() {
       <div id='App'>
         <Header />
         <Menu />
-        <MenuBackground />
         <Routes>
           <Route exact path='/' element={<Start />} />
           <Route path='/about' element={<About />} />

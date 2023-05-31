@@ -19,7 +19,7 @@
     color: hsl(201, 63%, 26%);
     font-size: 28px;
     width: 700px;
-    margin: 10px auto 70px;
+    margin: 30px auto 30px;
 }
 #Opinions h1 {
     text-align: center;
@@ -30,13 +30,13 @@
 
 #Opinions__button {
     display: block;
-    width: 370px;
+    width: 175px;
     height: 35px;
     line-height: 35px;
     text-align: center; 
     text-decoration: none;
     font-weight: 800;
-    margin: 0 auto 20px;
+    margin: 10px auto 40px;
     color: hsl(240, 100%, 30%);
     background-color: hsl(201, 63%, 56%);
     border-radius: 15px;
@@ -52,7 +52,6 @@
     font-weight: 700;
 } */
 #Opinions__reviews-google {
-    /* height: 300px; */
     display: inline-flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -65,9 +64,6 @@
 #Opinions__reviews-booksy {
     max-width: 800px;
     margin: 2px auto;
-    /* display: flex; */
-    /* flex-wrap: wrap; */
-    /* justify-content: space-between; */
 }
 #Opinions__reviews-booksy img {
     width: 100%;
