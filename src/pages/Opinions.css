@@ -18,7 +18,7 @@
     text-align: center;
     color: hsl(201, 63%, 26%);
     font-size: 28px;
-    width: 700px;
+    max-width: 700px;
     margin: 30px auto 30px;
 }
 #Opinions h1 {
@@ -27,7 +27,6 @@
     text-decoration: underline 1.5px;
     text-underline-offset: 8px;
 }
-
 #Opinions__button {
     display: block;
     width: 175px;
@@ -59,7 +58,6 @@
 #Opinions__reviews-google img {
     width: 445px;
     margin: 1px auto;
-    /* display: block; */
 }
 #Opinions__reviews-booksy {
     max-width: 800px;
@@ -83,8 +81,82 @@
     color: hsl(201, 63%, 26%);
 } */
 
-@media (max-width: 1620px) {
+@media (max-width: 1590px) {
     #Opinions {
-        margin-left: 350px;
+        margin-left: 330px;
+    }
+}
+@media (max-width: 1300px) {
+    #Opinions {
+        width: calc(100% - 340px);
+        padding-right: 10px;
+    }
+    #Opinions__reviews-google {
+        width: 100%;
+        margin: 3px auto;
+        flex-direction: column;
+    }
+    #Opinions__reviews-google img {
+        width: 445px;
+        margin-top: 3px;
+        display: block;
+    }
+}
+@media (max-width: 1000px) {
+    #Opinions {
+        margin: 0 auto;
+        padding: 0;
+    }
+    #Opinions h2 {
+        width: 450px;
+    }
+}
+@media (max-width: 810px) {
+    #Opinions {
+        margin: 0 auto;
+        padding: 0;
+        width: 450px;
+    }
+    #Opinions__reviews-google img {
+        width: 100%;
+    }
+}
+@media (max-width: 490px) {
+    #Opinions {
+        width: 97%;
+    }
+    #Opinions h2 {
+        width: 410px;
+        font-size: 25px;
+    }
+    #Opinions__reviews-google img {
+        width: 100%;
+    }
+    #Opinions__reviews-booksy img {
+        margin: -3px 0;
+    }
+}
+@media (max-width: 490px) {
+    #Opinions h2 {
+        width: 350px;
+        font-size: 22px;
+    }
+    #Opinions h1 {
+        font-size: 24px;
+    }
+}
+@media (max-width: 380px) {
+    #Opinions h2 {
+        width: 290px;
+        font-size: 18px;
+    }
+}
+@media (max-width: 310px) {
+    #Opinions h2 {
+        width: 250px;
+        font-size: 16px;
+    }
+    #Opinions h1 {
+        font-size: 20px;
     }
 }

@@ -1,23 +1,27 @@
+*{
+    /* border: 1px solid red; */
+}
 .Offer {
-    width: 800px;
+    width: 1056px;
     margin: 0 auto;
 }
 .Offer h1 {
-    color: hsl(201, 63%, 28%);
+    color: hsl(201, 63%, 24%);
     text-align: center;
 }
 /* Below there must be double selection - otherwise the text-align is overwritten by 
-    .Offer p {
-        text-align: justify;
-    }
+.Offer p {
+    text-align: justify;
+}
 */
 .Offer .Offer__title {
     font-size: 20px;
     text-align: center;
 }
 .Offer__group-title {
+    font-family: cinzel-medium;
     font-size: 21px;
-    color: hsl(201, 63%, 28%);
+    color: hsl(201, 63%, 24%);
     font-weight: 1000;
 }
 .Offer ul li{
@@ -25,4 +29,21 @@
 }
 .Offer p {
     text-align: justify;
+}
+@media(max-width: 1780px) {
+    .Offer {
+        margin-left: 360px;
+    }
+}
+@media(max-width: 1500px) {
+    .Offer {
+        /* width: 970px; */
+        width: calc(100% - 410px);
+    }
+}
+@media(max-width: 1000px) {
+    .Offer {
+        margin: 0 auto;
+        width: 90%;
+    }
 }

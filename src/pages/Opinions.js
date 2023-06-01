@@ -100,6 +100,60 @@ export default function Opinions() {
                 <a href='https://booksy.com/pl-pl/86946_odnowa_masaz_10052_miechow'>
                     <img src={require('../assets/testimonials-booksy/review46.JPG')} />
                 </a>
+                <a href='https://booksy.com/pl-pl/86946_odnowa_masaz_10052_miechow'>
+                    <img src={require('../assets/testimonials-booksy/review1.JPG')} />
+                </a>
+                <a href='https://booksy.com/pl-pl/86946_odnowa_masaz_10052_miechow'>
+                    <img src={require('../assets/testimonials-booksy/review2.JPG')} />
+                </a>
+                <a href='https://booksy.com/pl-pl/86946_odnowa_masaz_10052_miechow'>
+                    <img src={require('../assets/testimonials-booksy/review3.JPG')} />
+                </a>
+                <a href='https://booksy.com/pl-pl/86946_odnowa_masaz_10052_miechow'>
+                    <img src={require('../assets/testimonials-booksy/review4.JPG')} />
+                </a>
+                <a href='https://booksy.com/pl-pl/86946_odnowa_masaz_10052_miechow'>
+                    <img src={require('../assets/testimonials-booksy/review5.JPG')} />
+                </a>
+                <a href='https://booksy.com/pl-pl/86946_odnowa_masaz_10052_miechow'>
+                    <img src={require('../assets/testimonials-booksy/review6.JPG')} />
+                </a>
+                <a href='https://booksy.com/pl-pl/86946_odnowa_masaz_10052_miechow'>
+                    <img src={require('../assets/testimonials-booksy/review7.JPG')} />
+                </a>
+                <a href='https://booksy.com/pl-pl/86946_odnowa_masaz_10052_miechow'>
+                    <img src={require('../assets/testimonials-booksy/review8.JPG')} />
+                </a>
+                <a href='https://booksy.com/pl-pl/86946_odnowa_masaz_10052_miechow'>
+                    <img src={require('../assets/testimonials-booksy/review9.JPG')} />
+                </a>
+                <a href='https://booksy.com/pl-pl/86946_odnowa_masaz_10052_miechow'>
+                    <img src={require('../assets/testimonials-booksy/review10.JPG')} />
+                </a>
+                <a href='https://booksy.com/pl-pl/86946_odnowa_masaz_10052_miechow'>
+                    <img src={require('../assets/testimonials-booksy/review11.JPG')} />
+                </a>
+                <a href='https://booksy.com/pl-pl/86946_odnowa_masaz_10052_miechow'>
+                    <img src={require('../assets/testimonials-booksy/review12.JPG')} />
+                </a>
+                <a href='https://booksy.com/pl-pl/86946_odnowa_masaz_10052_miechow'>
+                    <img src={require('../assets/testimonials-booksy/review13.JPG')} />
+                </a>
+                <a href='https://booksy.com/pl-pl/86946_odnowa_masaz_10052_miechow'>
+                    <img src={require('../assets/testimonials-booksy/review14.JPG')} />
+                </a>
+                <a href='https://booksy.com/pl-pl/86946_odnowa_masaz_10052_miechow'>
+                    <img src={require('../assets/testimonials-booksy/review15.JPG')} />
+                </a>
+                <a href='https://booksy.com/pl-pl/86946_odnowa_masaz_10052_miechow'>
+                    <img src={require('../assets/testimonials-booksy/review16.JPG')} />
+                </a>
+                <a href='https://booksy.com/pl-pl/86946_odnowa_masaz_10052_miechow'>
+                    <img src={require('../assets/testimonials-booksy/review17.JPG')} />
+                </a>
+                <a href='https://booksy.com/pl-pl/86946_odnowa_masaz_10052_miechow'>
+                    <img src={require('../assets/testimonials-booksy/review18.JPG')} />
+                </a>
             </div>
             
         </div>

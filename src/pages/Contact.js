@@ -20,9 +20,11 @@ export default function Contact() {
             <a href="https://booksy.com/pl-pl/180086_angel-nails-piekne-paznokcie_paznokcie_10022_zielonki/staffer/394262#ba_s=bd_1">Booksy - salon Angels Nails, Bibice</a>
             
             <form action="https://formsubmit.co/your@email.com" method="POST">
-                <input type="name" name="surname" placeholder="Imię" required />
-                <input type="surname" name="surname" placeholder="Nazwisko" required />
-                <input type="email" name="email" placeholder="Adres e-mail" required />
+                <div className="Contact__all-inputs">
+                    <input type="name" name="surname" placeholder="Imię" required />
+                    <input type="surname" name="surname" placeholder="Nazwisko" required />
+                    <input type="email" name="email" placeholder="Adres e-mail" required />
+                </div>
                 <textarea type="text" name="name" placeholder="Treść..." required />
                 {/* <button type="submit">Wyślij</button> */}
                 <button type="submit">WYŚLIJ</button>

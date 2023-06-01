@@ -48,3 +48,23 @@
     width: 160px;
     height: 40px;
 }
+@media(max-width: 500px) {
+    #Header .Marka {
+        margin-left: 0;
+        padding: 3%;
+        width: 94%;
+    }
+    #Header__icons {
+        width: 190px;
+        margin-left: calc(50vw - 85px);
+    }
+    #Header__icons :nth-child(1) img, 
+    #Header__icons :nth-child(2) img {
+        width: 30px;
+        height: 30px;
+    }
+    #Header__icons :nth-child(3) img {
+        width: 120px;
+        height: 30px;
+    }
+}

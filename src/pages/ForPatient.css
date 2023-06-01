@@ -15,3 +15,15 @@
 .ForPatient ul {
     margin-top: 0;
 }
+@media(max-width: 1580px) {
+    .ForPatient {
+        margin-left: 350px;
+
+    }
+}
+@media(max-width: 1000px) {
+    .ForPatient {
+        margin-left: 20px;
+
+    }
+}

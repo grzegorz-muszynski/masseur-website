@@ -8,14 +8,14 @@
 }
 .Start span {
     font-weight: 1000;
-    color: hsl(201, 63%, 26%);
+    color: hsl(201, 63%, 24%);
 }
 .Start p {
     margin: 10px;
 }
 .Start p a {
     font-weight: 1000;
-    color: hsl(201, 63%, 28%);
+    color: hsl(201, 63%, 24%);
     text-underline-offset: 2px;
 }
 .Start p a:hover {
@@ -23,5 +23,35 @@
     transition: color 0.5s;
 }
 .Start h2 {
-    text-decoration-color: hsl(201, 63%, 28%);
+    text-decoration-color: hsl(201, 63%, 24%);
+}
+@media(max-width: 1330px) {
+    .Start {
+        margin-left: 350px;
+    }
+}
+@media(max-width: 1000px) {
+    .Start {
+        display: block;
+        margin: 0 auto;
+        width: 590px;
+    }
+}
+@media(max-width: 620px) {
+    .Start {
+        width: 470px;
+    }
+}
+@media(max-width: 490px) {
+    .Start {
+        width: 285px;
+        margin: 20px auto 30px;
+    }
+    .Start h2 {
+        margin: 0px;
+        line-height: 36px;
+    }
+    .Start .Start__text {
+        margin: 26px 0 40px;
+    }
 }

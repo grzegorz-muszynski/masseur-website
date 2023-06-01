@@ -15,6 +15,7 @@
     color: white;
 }
 span {
+    font-family: cinzel-medium;
     font-weight: 1000;
     color: hsl(201, 63%, 24%);
 }

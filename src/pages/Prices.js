@@ -6,11 +6,6 @@ export default function Prices() {
     return (
         <div className='Prices'>
             <table>
-                {/* <tr>
-                    <th>Rodzaj masażu</th>
-                    <th>Czas</th>
-                    <th>Cena</th>
-                </tr> */}
                 <tr>
                     <td colspan="3">Masaże przeciwbólowe, medyczne</td>
                 </tr>
@@ -29,21 +24,6 @@ export default function Prices() {
                     <td>60 min.</td>
                     <td>130 zł</td>
                 </tr>
-                {/* <tr>
-                    <td>Masaż klasyczny przeciwbólowy - Dmytro</td>
-                    <td>30 min.</td>
-                    <td>70 zł</td>
-                </tr>
-                <tr>
-                    <td>Masaż klasyczny przeciwbólowy - Dmytro</td>
-                    <td>45 min.</td>
-                    <td>100 zł</td>
-                </tr>
-                <tr>
-                    <td>Masaż klasyczny przeciwbólowy - Dmytro</td>
-                    <td>60 min.</td>
-                    <td>130 zł</td>
-                </tr> */}
                 <tr>
                     <td>Masaż tkanek głębokich (MTG)</td>
                     <td>30 min.</td>

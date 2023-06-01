@@ -6,14 +6,14 @@
 }
 .Vouchers h1 {
     text-align: center;
-    color: hsl(201, 63%, 26%);
+    color: hsl(201, 63%, 24%);
 }
 .Vouchers p {
     text-indent: 10px;
 }
 .Vouchers p a {
     font-weight: 1000;
-    color: hsl(201, 63%, 28%);
+    color: hsl(201, 63%, 24%);
     text-underline-offset: 2px;
 }
 .Vouchers p a:hover {
@@ -21,9 +21,53 @@
     transition: color 0.5s;
 }
 .Vouchers__cards {
-    color: hsl(201, 63%, 26%);
+    color: hsl(201, 63%, 24%);
     font-weight: 1000;
     font-size: 20px;
     margin: 10px 0;
     text-align: center;
+}
+@media(max-width: 1500px) {
+    .Vouchers {
+        margin-left: 400px;
+    }
+}
+@media(max-width: 1200px) {
+    .Vouchers {
+        margin-left: calc((100% - 390px) / 2);
+    }
+}
+@media(max-width: 1050px) {
+    .Vouchers {
+        width: 600px;
+        margin-left: calc((100% - 310px) / 2);
+    }
+}
+@media(max-width: 1000px) {
+    .Vouchers {
+        margin: 0 auto;
+    }
+}
+@media(max-width: 650px) {
+    .Vouchers {
+        width: 442px;
+    }
+}
+@media(max-width: 480px) {
+    .Vouchers {
+        width: 340px;
+        height: 680px;
+    }
+    .Vouchers__cards {
+        font-size: 16px;
+    }
+}
+@media(max-width: 380px) {
+    .Vouchers {
+        width: 280px;
+        height: 680px;
+    }
+    .Vouchers__cards {
+        font-size: 15.5px;
+    }
 }

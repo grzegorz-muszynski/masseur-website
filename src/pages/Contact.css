@@ -1,10 +1,6 @@
-* {
-    /* border: 1px solid red;     */
-}
 #Contact {
     width: 800px;
     margin: 0 auto;
-    /* margin-left: calc(50% - 400px); */
 }
 #Contact__desc,
 #Contact h1 {
@@ -60,13 +56,16 @@
     margin: 0;
 }
 #Contact form {
-    /* width: 600px; */
     height: 400px;
+}
+.Contact__all-inputs {
+    display: flex;
+    justify-content: space-between;
 }
 #Contact form input {
     font-family: cinzel;
     display: inline-block;
-    width: 255px;
+    width: 258px;
     border: 1px solid black;
     border-radius: 3px;
     margin: 1px 1px;
@@ -75,7 +74,7 @@
 #Contact form textarea {
     font-family: cinzel;
     height: 160px;
-    width: 780px;
+    width: 789px;
     border: 1px solid black;
     border-radius: 3px;
     margin: 1px;
@@ -97,4 +96,51 @@
     background-color: hsl(201, 63%, 66%);
     transition: 0.5s background-color;
     cursor: grab;
+}
+@media(max-width: 1550px) {
+    #Contact {
+        margin-left: 360px;
+    }
+}
+@media(max-width: 1230px) {
+    #Contact {
+        width: 600px; 
+    }
+    #Contact form {
+        width: 600px;
+    }
+    #Contact form input {
+        width: 192px;
+    }
+    #Contact form textarea {
+        width: 590px;
+    }
+}
+@media(max-width: 1000px) {
+    #Contact {
+        margin: 0 auto;
+    }
+}
+@media(max-width: 630px) {
+    #Contact {
+        width: 97%; 
+    }
+    #Contact form {
+        width: 100%;
+    }
+    #Contact form input {
+        width: 32%;
+    }
+    .Contact__all-inputs {
+        width: 99%;
+    }
+    #Contact form textarea {
+        width: 98%;
+        margin: 1px 0;
+    }
+    /* Buttons with hyperlink */
+    #Contact a {
+        font-size: 13px;
+        width: 250px;
+    }
 }

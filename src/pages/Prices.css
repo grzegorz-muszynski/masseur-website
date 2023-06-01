@@ -15,15 +15,11 @@
 }
 .Prices td[colspan="3"] {
     text-align: center;
-    /* color: hsl(41, 84%, 46%); */
     color: hsl(201, 63%, 24%);
     background-color: hsl(74, 80%, 36%);
     padding-left: 25px;
     font-size: 23px;
     font-weight: bold;
-}
-.Prices tr:nth-child(2n) {
-    /* background-color: white; */
 }
 .Prices tr :nth-child(1),
 .Prices tr :nth-child(2) {
@@ -33,18 +29,50 @@
 .Prices tr :nth-child(2) {
     text-align: right;
 }
-/* #Prices__swimming {
-    width: 450px;
+@media(max-width: 1360px) {
+    .Prices {
+        margin-left: 250px;
+    }
 }
-#Prices__swimming td {
-    width: 150px;
-    padding: 0;
+@media(max-width: 1000px) {
+    .Prices {
+        margin: 0 auto;    
+        width: 570px;
+    }
 }
-#Prices__swimming tr :nth-child(1),
-#Prices__swimming tr :nth-child(2) {
-    padding-right: 0;
-
+@media(max-width: 610px) {
+    .Prices,
+    .Prices table {
+        width: 470px;
+    }
+    .Prices td[colspan="3"] {
+        width: 100%;
+        padding: 0;
+    }
+    .Prices tr :nth-child(1),
+    .Prices tr :nth-child(2) {
+        padding-right: 0;
+    }
 }
-#Prices__swimming tr :nth-child(1) {
-    text-align: center;
-} */
+@media(max-width: 500px) {
+    .Prices,
+    .Prices table {
+        width: 410px;
+    }
+    .Prices tr :nth-child(1) {
+        width: 200px;
+    }
+    .Prices tr :nth-child(2),
+    .Prices tr :nth-child(3) {
+        text-align: center;
+    }
+}
+@media(max-width: 440px) {
+    .Prices,
+    .Prices table {
+        width: 280px;
+    }
+    .Prices tr :nth-child(1) {
+        width: 150px;
+    }
+}
