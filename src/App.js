@@ -13,6 +13,7 @@ import Offer from './pages/Offer';
 import Opinions from './pages/Opinions';
 import Prices from './pages/Prices';
 import Start from './pages/Start';
+import Thanks from './pages/Thanks';
 import Vouchers from './pages/Vouchers';
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <Routes>
           <Route exact path='/' element={<Start />} />
           <Route path='/about' element={<About />} />
+          {/* <Route path='/about' element={<Thanks />} /> */}
           <Route path='/offer' element={<Offer />} />
           <Route path='/prices' element={<Prices />} />
           <Route path='/forpatient' element={<ForPatient />} />
@@ -31,6 +33,7 @@ function App() {
           <Route path='/location' element={<Location />} />
           <Route path='/contact' element={<Contact />} />
           <Route path='/opinions' element={<Opinions />} /> 
+          <Route path='/thanks' element={<Thanks />} /> 
         </Routes>
         <Footer />
       </div>

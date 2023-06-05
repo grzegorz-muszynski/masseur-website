@@ -30,7 +30,6 @@
     .Footer::after,
     .Footer::before {
         display: block;
-        /* padding-left: 50px; */
         padding-left: 0;
         width: 100%;
         text-align: center;
