@@ -9,19 +9,17 @@ export default function Menu() {
         <div className='Menu'>
             <div className="MenuBackground"></div>
 
-            {/* <img id='Menu_btn' src={require('../assets/menuGreen.png')} /> */}
             <div className='Menu__btn' onClick={()=>{setShowMenu(true)}}>
                 <p>Menu</p>
                 <p>|||</p>
-                {/* <img src={require('../assets/menuGreen.png')} /> */}
             </div>
             
-            {/* <div id="Menu" style={{display: "none"}} > */}
             <div className={showMenu ? 'Menu__bar' : 'Menu__bar Menu__bar-hide'} >
                 <img 
                     className={showMenu ? 'Menu__close Menu_close-display' : 'Menu__close'}
                     src={require('../assets/close.png')}
                     onClick={()=>{setShowMenu(false)}}
+                    alt='Zapisz się na masaż'
                 />
                 <ul>
                     <li><NavLink

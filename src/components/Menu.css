@@ -6,10 +6,6 @@
     font-family: cinzel-medium;
     src: url(../assets/fonts/Cinzel-Medium.ttf);
 }
-
-* {
-    /* border: 1px solid red; */
-}
 .MenuBackground {
     background-color: hsl(74, 80%, 36%);
     height: 100%;
@@ -90,13 +86,11 @@
         rotate: 90deg;
     }
     .Menu__btn:hover {
-        /* font-family: cinzel-medium; */
         color: hsl(200, 100%, 41%);
         cursor: grab;
     }
     .Menu__bar-hide {
         display: none;
-        /* translate: 100%; */
     }
     .Menu__bar {
         width: 100%;
@@ -118,10 +112,6 @@
         right: 15px;
         top: 15px;
         cursor: grab;
-    }
-    .Menu__bar {
-        /* translate: 100%; */
-        /* transition: translate -100%;; */
     }
 }
 @media(max-width: 500px) {

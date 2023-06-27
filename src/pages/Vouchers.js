@@ -1,4 +1,3 @@
-import react from 'react';
 import "./Vouchers.css";
 
 export default function Vouchers() {

@@ -1,8 +1,4 @@
-import Testimonial from "../components/Testimonial";
-import { AllOpinions } from "../assets/AllOpinions";
 import "./Opinions.css";
-
-import { useEffect, useState } from "react";
 
 export default function Opinions() {
     // const url = `https://mybusiness.googleapis.com/v4/accounts/{16316251523711171230}/locations/{ChIJnwkhEdgrF0cRwMAwqQIE5uA}/reviews`;
@@ -28,53 +24,34 @@ export default function Opinions() {
     return (
         <div id="Opinions">
             <h2>Przeczytaj opinie i przekonaj się że możesz nam zaufać</h2>
-            {/* {fetchData()} */}
-
-            {/* DELETE ALSO TESTIMONIAL COMPONENT FROM COMPONENTS FOLDER */}
-            
-            {/* <Testimonial 
-                text={AllOpinions[0].text} 
-                name={AllOpinions[0].name} 
-                date={AllOpinions[0].date} 
-            />
-            <Testimonial 
-                text={AllOpinions[1].text} 
-                name={AllOpinions[1].name} 
-                date={AllOpinions[1].date} 
-            /> */}
-            {/* <iframe src='https://widgets.sociablekit.com/google-reviews/iframe/148697' frameborder='0' width='100%' height='1000'></iframe> */}
-            {/* <h3>Opinie z serwisu <span>Google</span></h3> */}
-            {/* <img id='google'  src={require("../assets/google-logo.png")} /> */}
 
             <h1>Google</h1>
 
 
             <div id="Opinions__reviews-google">
-                {/* <img src={require('../assets/testimonials/opinion1.JPG')} />
-                <img src={require('../assets/testimonials/opinion2.JPG')} /> */}
                 <a href='https://g.co/kgs/ye84XZ'>
-                    <img src={require('../assets/testimonials-google/opinions3.JPG')} />
+                    <img src={require('../assets/testimonials-google/opinions3.JPG')} alt='Renomowany gabinet masażu' />
                 </a>
                 <a href='https://g.co/kgs/FbHtBP'>
-                    <img src={require('../assets/testimonials-google/opinions4.JPG')} />
+                    <img src={require('../assets/testimonials-google/opinions4.JPG')} alt='Renomowany gabinet masażu' />
                 </a>
                 <a href='https://g.co/kgs/WtB8mB'>
-                    <img src={require('../assets/testimonials-google/opinions5.JPG')} />
+                    <img src={require('../assets/testimonials-google/opinions5.JPG')} alt='Renomowany gabinet masażu' />
                 </a>
                 <a href='https://g.co/kgs/c76Wvo'>
-                    <img src={require('../assets/testimonials-google/opinions6.JPG')} />
+                    <img src={require('../assets/testimonials-google/opinions6.JPG')} alt='Renomowany gabinet masażu' />
                 </a>
                 <a href='https://g.co/kgs/UYksQM'>
-                    <img src={require('../assets/testimonials-google/opinions7.JPG')} />
+                    <img src={require('../assets/testimonials-google/opinions7.JPG')} alt='Renomowany gabinet masażu' />
                 </a>
                 <a href='https://g.co/kgs/WHF3pd'>
-                    <img src={require('../assets/testimonials-google/opinions8.JPG')} />
+                    <img src={require('../assets/testimonials-google/opinions8.JPG')} alt='Renomowany gabinet masażu' />
                 </a>
                 <a href='https://g.co/kgs/prsuxw'>
-                    <img src={require('../assets/testimonials-google/opinions1.JPG')} />
+                    <img src={require('../assets/testimonials-google/opinions1.JPG')} alt='Renomowany gabinet masażu' />
                 </a>
                 <a href='https://g.co/kgs/YWGHmm'>
-                    <img src={require('../assets/testimonials-google/opinions2.JPG')} />
+                    <img src={require('../assets/testimonials-google/opinions2.JPG')} alt='Renomowany gabinet masażu' />
                 </a>
             </div>
 
@@ -83,76 +60,76 @@ export default function Opinions() {
             <h1>Booksy</h1>
             <div id='Opinions__reviews-booksy'>
                 <a href='https://booksy.com/pl-pl/86946_odnowa_masaz_10052_miechow'>
-                    <img src={require('../assets/testimonials-booksy/review64.JPG')} />
+                    <img src={require('../assets/testimonials-booksy/review64.JPG')} alt='Renomowany gabinet masażu' />
                 </a>
                 <a href='https://booksy.com/pl-pl/86946_odnowa_masaz_10052_miechow'>
-                    <img src={require('../assets/testimonials-booksy/review63.JPG')} />
+                    <img src={require('../assets/testimonials-booksy/review63.JPG')} alt='Renomowany gabinet masażu' />
                 </a>
                 <a href='https://booksy.com/pl-pl/86946_odnowa_masaz_10052_miechow'>
-                    <img src={require('../assets/testimonials-booksy/review62.JPG')} />
+                    <img src={require('../assets/testimonials-booksy/review62.JPG')} alt='Renomowany gabinet masażu' />
                 </a>
                 <a href='https://booksy.com/pl-pl/86946_odnowa_masaz_10052_miechow'>
-                    <img src={require('../assets/testimonials-booksy/review61.JPG')} />
+                    <img src={require('../assets/testimonials-booksy/review61.JPG')} alt='Renomowany gabinet masażu' />
                 </a>
                 <a href='https://booksy.com/pl-pl/86946_odnowa_masaz_10052_miechow'>
-                    <img src={require('../assets/testimonials-booksy/review60.JPG')} />
+                    <img src={require('../assets/testimonials-booksy/review60.JPG')} alt='Renomowany gabinet masażu' />
                 </a>
                 <a href='https://booksy.com/pl-pl/86946_odnowa_masaz_10052_miechow'>
-                    <img src={require('../assets/testimonials-booksy/review46.JPG')} />
+                    <img src={require('../assets/testimonials-booksy/review46.JPG')} alt='Renomowany gabinet masażu' />
                 </a>
                 <a href='https://booksy.com/pl-pl/86946_odnowa_masaz_10052_miechow'>
-                    <img src={require('../assets/testimonials-booksy/review1.JPG')} />
+                    <img src={require('../assets/testimonials-booksy/review1.JPG')} alt='Renomowany gabinet masażu' />
                 </a>
                 <a href='https://booksy.com/pl-pl/86946_odnowa_masaz_10052_miechow'>
-                    <img src={require('../assets/testimonials-booksy/review2.JPG')} />
+                    <img src={require('../assets/testimonials-booksy/review2.JPG')} alt='Renomowany gabinet masażu' />
                 </a>
                 <a href='https://booksy.com/pl-pl/86946_odnowa_masaz_10052_miechow'>
-                    <img src={require('../assets/testimonials-booksy/review3.JPG')} />
+                    <img src={require('../assets/testimonials-booksy/review3.JPG')} alt='Renomowany gabinet masażu' />
                 </a>
                 <a href='https://booksy.com/pl-pl/86946_odnowa_masaz_10052_miechow'>
-                    <img src={require('../assets/testimonials-booksy/review4.JPG')} />
+                    <img src={require('../assets/testimonials-booksy/review4.JPG')} alt='Renomowany gabinet masażu' />
                 </a>
                 <a href='https://booksy.com/pl-pl/86946_odnowa_masaz_10052_miechow'>
-                    <img src={require('../assets/testimonials-booksy/review5.JPG')} />
+                    <img src={require('../assets/testimonials-booksy/review5.JPG')} alt='Renomowany gabinet masażu' />
                 </a>
                 <a href='https://booksy.com/pl-pl/86946_odnowa_masaz_10052_miechow'>
-                    <img src={require('../assets/testimonials-booksy/review6.JPG')} />
+                    <img src={require('../assets/testimonials-booksy/review6.JPG')} alt='Renomowany gabinet masażu' />
                 </a>
                 <a href='https://booksy.com/pl-pl/86946_odnowa_masaz_10052_miechow'>
-                    <img src={require('../assets/testimonials-booksy/review7.JPG')} />
+                    <img src={require('../assets/testimonials-booksy/review7.JPG')} alt='Renomowany gabinet masażu' />
                 </a>
                 <a href='https://booksy.com/pl-pl/86946_odnowa_masaz_10052_miechow'>
-                    <img src={require('../assets/testimonials-booksy/review8.JPG')} />
+                    <img src={require('../assets/testimonials-booksy/review8.JPG')} alt='Renomowany gabinet masażu' />
                 </a>
                 <a href='https://booksy.com/pl-pl/86946_odnowa_masaz_10052_miechow'>
-                    <img src={require('../assets/testimonials-booksy/review9.JPG')} />
+                    <img src={require('../assets/testimonials-booksy/review9.JPG')} alt='Renomowany gabinet masażu' />
                 </a>
                 <a href='https://booksy.com/pl-pl/86946_odnowa_masaz_10052_miechow'>
-                    <img src={require('../assets/testimonials-booksy/review10.JPG')} />
+                    <img src={require('../assets/testimonials-booksy/review10.JPG')} alt='Renomowany gabinet masażu' />
                 </a>
                 <a href='https://booksy.com/pl-pl/86946_odnowa_masaz_10052_miechow'>
-                    <img src={require('../assets/testimonials-booksy/review11.JPG')} />
+                    <img src={require('../assets/testimonials-booksy/review11.JPG')} alt='Renomowany gabinet masażu' />
                 </a>
                 <a href='https://booksy.com/pl-pl/86946_odnowa_masaz_10052_miechow'>
-                    <img src={require('../assets/testimonials-booksy/review12.JPG')} />
+                    <img src={require('../assets/testimonials-booksy/review12.JPG')} alt='Renomowany gabinet masażu' />
                 </a>
                 <a href='https://booksy.com/pl-pl/86946_odnowa_masaz_10052_miechow'>
-                    <img src={require('../assets/testimonials-booksy/review13.JPG')} />
+                    <img src={require('../assets/testimonials-booksy/review13.JPG')} alt='Renomowany gabinet masażu' />
                 </a>
                 <a href='https://booksy.com/pl-pl/86946_odnowa_masaz_10052_miechow'>
-                    <img src={require('../assets/testimonials-booksy/review14.JPG')} />
+                    <img src={require('../assets/testimonials-booksy/review14.JPG')} alt='Renomowany gabinet masażu' />
                 </a>
                 <a href='https://booksy.com/pl-pl/86946_odnowa_masaz_10052_miechow'>
-                    <img src={require('../assets/testimonials-booksy/review15.JPG')} />
+                    <img src={require('../assets/testimonials-booksy/review15.JPG')} alt='Renomowany gabinet masażu' />
                 </a>
                 <a href='https://booksy.com/pl-pl/86946_odnowa_masaz_10052_miechow'>
-                    <img src={require('../assets/testimonials-booksy/review16.JPG')} />
+                    <img src={require('../assets/testimonials-booksy/review16.JPG')} alt='Renomowany gabinet masażu' />
                 </a>
                 <a href='https://booksy.com/pl-pl/86946_odnowa_masaz_10052_miechow'>
-                    <img src={require('../assets/testimonials-booksy/review17.JPG')} />
+                    <img src={require('../assets/testimonials-booksy/review17.JPG')} alt='Renomowany gabinet masażu' />
                 </a>
                 <a href='https://booksy.com/pl-pl/86946_odnowa_masaz_10052_miechow'>
-                    <img src={require('../assets/testimonials-booksy/review18.JPG')} />
+                    <img src={require('../assets/testimonials-booksy/review18.JPG')} alt='Renomowany gabinet masażu' />
                 </a>
             </div>
             

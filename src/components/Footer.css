@@ -8,8 +8,6 @@
     bottom: 0;
     font-family: calibri;
     font-size: 15px;
-    /* display: flex;
-    justify-content: space-between; */
 }
 .Footer::before {
     content: 'Copyright © 2023 ODNOWA Aneta Kubik';

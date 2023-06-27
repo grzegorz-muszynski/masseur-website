@@ -40,16 +40,3 @@ export default function Offer() {
         </div>
     )
 }
-{/* <li>-biurowy work-site</li> 
-<li>-drenaż limfatyczny</li> 
-<li>-drenaż limfatyczny</li> 
-<li>-gorącymi kamieniami</li> 
-<li>-klasyczny</li> 
-<li>-kobiet w ciąży</li> 
-<li>-leczniczy</li> 
-<li>-profilaktyczny</li> 
-<li>-relaksacyjny</li> 
-<li>-Shantala (niemowląt)</li> 
-<li>-sportowy</li> 
-<li>-tkanek głębokich</li> 
-<li>-KOBIDO</li>  */}

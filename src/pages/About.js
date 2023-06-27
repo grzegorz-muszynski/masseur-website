@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "./About.css";
 
 export default function About() {
@@ -28,11 +28,9 @@ export default function About() {
             setSlide('15')
         } else {
             let currentNumber = slide;
-            // console.log(currentNumber)
-            // console.log(typeof currentNumber)
+
             currentNumber--; // Subtraction automaticaly converts string into number
             currentNumber = String(currentNumber);
-            // console.log(typeof currentNumber)
             setSlide(currentNumber);
         }
     }
@@ -58,6 +56,7 @@ export default function About() {
                         onClick={displayCert} 
                         key={number} 
                         data-number={number} 
+                        alt='Certyfikowani masażyści'
                     />)
                 )}
             </div>
@@ -71,12 +70,14 @@ export default function About() {
                     src={require(`../assets/arrow.png`)} 
                     className='arrow left' 
                     onClick={prevSlide}
+                    alt='Gabinet masażu Miechów'
                 />
-                <img src={require(`../assets/certificates/cert${slide}.jpg`)} />
+                <img src={require(`../assets/certificates/cert${slide}.jpg`)} alt='Certyfikowany gabinet masażu' />
                 <img 
                     src={require(`../assets/arrow.png`)} 
                     className='arrow right' 
                     onClick={nextSlide}
+                    alt='Gabinet masażu Bibice'
                 />
             </div>
         </div>
