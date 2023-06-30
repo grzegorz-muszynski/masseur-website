@@ -22,13 +22,15 @@
 @media(max-width: 540px) {
     .Footer {
         position: relative;
-        top: 24px;
+        /* top: 24px; */
+        top: 31px;
         height: 48px;
     }
     .Footer::after,
     .Footer::before {
         display: block;
-        padding-left: 0;
+        /* padding-left: 0; */
+        padding: 0;
         width: 100%;
         text-align: center;
     }

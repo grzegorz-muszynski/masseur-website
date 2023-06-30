@@ -2,7 +2,6 @@
     /* border: 1px solid red; */
 }
 #Header video {
-    /* height: 50%; */
     width: 100%;
     object-fit: cover;
     height: 500px;
@@ -33,11 +32,6 @@
     width: 270px;
     display: flex;
     justify-content: space-between;
-}
-#Header__icons :nth-child(1), 
-#Header__icons :nth-child(2), 
-#Header__icons :nth-child(3) {
-    /* margin: 0 10px 10px 0; */
 }
 #Header__icons :nth-child(1) img, 
 #Header__icons :nth-child(2) img {

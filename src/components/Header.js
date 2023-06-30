@@ -6,7 +6,7 @@ export default function Header() {
     return (
         <div id="Header">
             <Marka className='Marka' />
-            <video src={require('../assets/massage.mp4')} type="video/mp4" autoPlay loop muted alt="Masaż relaksacyjny, leczniczy Miechów" />
+            <video src={require('../assets/massage.mp4')} type="video/mp4" autoPlay loop muted playsInline alt="Masaż relaksacyjny, leczniczy Miechów" />
 
             <div id="Header__icons">
                 <a href='https://www.facebook.com/OdnowaAnetaKubik/'>
