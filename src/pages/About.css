@@ -14,7 +14,6 @@
     text-underline-offset: 8px;
 }
 #About__biogram {
-    width: 90%;
     max-width: 900px;
     text-align: justify;
     margin: 20px auto 60px;
@@ -82,12 +81,25 @@ img[data-number="10"] {
 #About__slider .right {
     transform: rotate(-90deg);
 }
-
+@media(max-width: 1450px) {
+    #About__biogram {
+        width: 730px;
+    }
+}
+@media(max-width: 1250px) {
+    #About__biogram {
+        width: 530px;
+    }
+}
+@media(max-width: 1000px) {
+    #About {
+        margin: 20px auto;
+    }
+}
 @media(max-width: 800px) {
     #About__grid {
         margin: 20px auto 0px;
-        /* max-width: 1200px; */
-        width: 100%;
+        width: 90%;
         grid-template: 13.5% 13.5% 13.5% 13.5% 13.5% 13.5% 13.5% / 33% 33% 33%;
         gap: 0.4% 1%;
     }
@@ -108,5 +120,18 @@ img[data-number="10"] {
         grid-row-start: 5;
         grid-column-end: span 3;
         grid-row-end: span 1;
+    }
+}
+@media(max-width: 600px) {
+    #About__biogram {
+        width: 420px;
+    }
+}
+@media(max-width: 490px) {
+    #About__biogram {
+        width: 280px;
+    }
+    #About__grid {
+        width: 95%;
     }
 }
