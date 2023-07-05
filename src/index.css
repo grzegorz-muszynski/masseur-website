@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: lato;
+  src: url(./assets/fonts/Lato-Medium.ttf);
+}
+@font-face {
+  font-family: prata;
+  src: url(./assets/fonts/Prata-Regular.ttf);
+}

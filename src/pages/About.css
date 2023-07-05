@@ -16,7 +16,6 @@
 #About__biogram {
     width: 90%;
     max-width: 900px;
-    /* text-align: center; */
     text-align: justify;
     margin: 20px auto 60px;
     text-indent: 40px;
@@ -26,7 +25,6 @@
     margin: 20px auto 60px;
     max-width: 1200px;
     width: 80%;
-    /* height: 70%; */
     grid-template: 24% 24% 24% 24% / 19% 19% 19% 19% 19%;
     gap: 1.33% 1.25%;
 }
@@ -37,20 +35,20 @@
     border-radius: 5px;
     border: 2px solid hsl(120, 100%, 15%);
 }
-img[data-number="3"] {
-    grid-column-start: 3;
+img[data-number="2"] {
+    grid-column-start: 2;
     grid-row-start: 1;
     grid-column-end: span 2;
     grid-row-end: 2;
 }
-img[data-number="5"] {
-    grid-column-start: 1;
+img[data-number="6"] {
+    grid-column-start: 2;
     grid-row-start: 2;
     grid-column-end: span 3;
     grid-row-end: span 1;
 }
-img[data-number="9"] {
-    grid-column-start: 2;
+img[data-number="10"] {
+    grid-column-start: 3;
     grid-row-start: 3;
     grid-column-end: span 3;
     grid-row-end: span 1;
@@ -83,4 +81,32 @@ img[data-number="9"] {
 }
 #About__slider .right {
     transform: rotate(-90deg);
+}
+
+@media(max-width: 800px) {
+    #About__grid {
+        margin: 20px auto 0px;
+        /* max-width: 1200px; */
+        width: 100%;
+        grid-template: 13.5% 13.5% 13.5% 13.5% 13.5% 13.5% 13.5% / 33% 33% 33%;
+        gap: 0.4% 1%;
+    }
+    img[data-number="2"] {
+        grid-column-start: 2;
+        grid-row-start: 1;
+        grid-column-end: span 2;
+        grid-row-end: 2;
+    }
+    img[data-number="6"] {
+        grid-column-start: 1;
+        grid-row-start: 3;
+        grid-column-end: span 3;
+        grid-row-end: span 1;
+    }
+    img[data-number="10"] {
+        grid-column-start: 1;
+        grid-row-start: 5;
+        grid-column-end: span 3;
+        grid-row-end: span 1;
+    }
 }

@@ -1,7 +1,7 @@
-@font-face {
+/* @font-face {
     font-family: prata;
     src: url(./assets/fonts/Prata-Regular.ttf);
-}
+} */
 #root {
     background-color: hsl(74, 80%, 36%);
 }
