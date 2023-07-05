@@ -61,14 +61,13 @@ img[data-number="10"] {
     background-color: hsl(0, 0%, 0%, 0.7);
     width: 100%;
     height: 100%;
-
     /* display: flex; <-it's already declared in JS */
     justify-content: center;
     align-items: center
 }
 #About__slider img {
-    width: 40%;
-    /* max-width: 96%; */
+    max-width: 40%;
+    max-height: 98%;
 }
 #About__slider .arrow {
     width: 150px;
@@ -93,7 +92,6 @@ img[data-number="10"] {
     }
     #About__slider img {
         width: 60%;
-        max-height: 96%;
     }
     #About__slider .arrow {
         width: 110px;
@@ -116,7 +114,8 @@ img[data-number="10"] {
     #About__grid {
         margin: 20px auto 0px;
         width: 90%;
-        grid-template: 13.5% 13.5% 13.5% 13.5% 13.5% 13.5% 13.5% / 33% 33% 33%;
+        /* grid-template: 13.5% 13.5% 13.5% 13.5% 13.5% 13.5% 13.5% / 33% 33% 33%; */
+        grid-template: repeat(7, 13.5%) / repeat(3, 33%);
         gap: 0.4% 1%;
     }
     img[data-number="2"] {
@@ -142,6 +141,18 @@ img[data-number="10"] {
     }
     #About__slider .arrow {
         width: 80px;
+    }
+    img[data-number="15"] {
+        grid-column-start: 1;
+        grid-row-start: 7;
+        grid-column-end: span 1;
+        grid-row-end: 7;
+    }
+    img[data-number="16"] {
+        grid-column-start: 3;
+        grid-row-start: 7;
+        grid-column-end: span 1;
+        grid-row-end: 7;
     }
 }
 @media(max-width: 600px) {
