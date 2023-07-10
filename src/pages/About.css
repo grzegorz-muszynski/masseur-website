@@ -13,8 +13,8 @@
     text-decoration: underline;
     text-underline-offset: 8px;
 }
-#About__biogram {
-    max-width: 900px;
+.About__biogram {
+    max-width: 920px;
     text-align: justify;
     margin: 20px auto 60px;
     text-indent: 40px;
@@ -82,13 +82,16 @@ img[data-number="10"] {
     transform: rotate(-90deg);
 }
 @media(max-width: 1450px) {
-    #About__biogram {
-        width: 730px;
+    .About__biogram {
+        width: 740px;
     }
 }
 @media(max-width: 1250px) {
-    #About__biogram {
-        width: 530px;
+    #About {
+        margin: 20px 40px 0 320px;
+    }
+    .About__biogram {
+        width: 570px;
     }
     #About__slider img {
         width: 60%;
@@ -114,27 +117,42 @@ img[data-number="10"] {
     #About__grid {
         margin: 20px auto 0px;
         width: 90%;
-        /* grid-template: 13.5% 13.5% 13.5% 13.5% 13.5% 13.5% 13.5% / 33% 33% 33%; */
-        grid-template: repeat(7, 13.5%) / repeat(3, 33%);
+        /* grid-template: repeat(7, 13.5%) / repeat(3, 33%); */
+        grid-template: repeat(7, 13.5%) / repeat(6, 15.7%);
         gap: 0.4% 1%;
     }
-    img[data-number="2"] {
-        grid-column-start: 2;
-        grid-row-start: 1;
+    img {
         grid-column-end: span 2;
-        grid-row-end: 2;
+    }
+    img[data-number="2"] {
+        grid-column-start: 3;
+        grid-row-start: 1;
+        grid-column-end: span 4;
+        grid-row-end: 1;
     }
     img[data-number="6"] {
         grid-column-start: 1;
         grid-row-start: 3;
-        grid-column-end: span 3;
-        grid-row-end: span 1;
+        grid-column-end: span 6;
+        grid-row-end: 3;
     }
     img[data-number="10"] {
         grid-column-start: 1;
         grid-row-start: 5;
-        grid-column-end: span 3;
-        grid-row-end: span 1;
+        grid-column-end: span 6;
+        grid-row-end: 5;
+    }
+    img[data-number="14"] {
+        grid-column-start: 1;
+        grid-row-start: 7;
+        grid-column-end: span 2;
+        grid-row-end: 7;
+    }
+    img[data-number="15"] {
+        grid-column-start: 3;
+        grid-row-start: 7;
+        grid-column-end: span 2;
+        grid-row-end: 7;
     }
     #About__slider img {
         width: 75%;
@@ -156,7 +174,7 @@ img[data-number="10"] {
     }
 }
 @media(max-width: 600px) {
-    #About__biogram {
+    .About__biogram {
         width: 420px;
     }
     #About__slider img {
@@ -168,7 +186,7 @@ img[data-number="10"] {
     }
 }
 @media(max-width: 490px) {
-    #About__biogram {
+    .About__biogram {
         width: 280px;
     }
     #About__grid {
