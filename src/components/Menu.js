@@ -48,6 +48,10 @@ export default function Menu() {
                     >Nasz zespół</NavLink></li>
                     <li><NavLink
                         onClick={()=>setShowMenu(false)}     
+                        to='/gallery'
+                    >Galeria</NavLink></li>
+                    <li><NavLink
+                        onClick={()=>setShowMenu(false)}     
                         to='/opinions'
                     >Opinie</NavLink></li>
                     <li><NavLink

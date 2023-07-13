@@ -120,14 +120,9 @@ export default function Prices() {
                         <td>160 zł</td>
                     </tr>
                     <tr>
-                        <td>Masaż gorącą świecą - Aneta</td>
+                        <td>Masaż gorącą świecą</td>
                         <td>60 min.</td>
                         <td>140 zł</td>
-                    </tr>
-                    <tr>
-                        <td>Masaż gorącą świecą - Dmytro</td>
-                        <td>60 min.</td>
-                        <td>125 zł</td>
                     </tr>
                 </tbody>
             </table>

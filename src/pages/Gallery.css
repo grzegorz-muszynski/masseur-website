@@ -1,0 +1,133 @@
+/* * {border: 1px solid red;} */
+#Gallery {
+    width: 800px;
+    margin: 20px auto;
+}
+#Gallery h1 {
+    text-align: center;
+    color: hsl(201, 63%, 26%);
+}
+#Gallery__grid {
+    display: grid;
+    align-content: center;
+    grid-template: repeat(6, 15%) / repeat(4, 23.5%);
+    gap: 2%;
+    margin: 10px auto;
+}
+#Gallery__grid img {
+    width: 100%;
+    height: 100%;
+    
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid hsl(120, 100%, 15%);
+}
+#Gallery__grid img[data-number="21"] {
+    grid-column-start: 2;
+    grid-row-start: 6;
+    grid-column-end: span 1;
+    grid-row-end: 6;
+}
+#Gallery__grid img[data-number="22"] {
+    grid-column-start: 3;
+    grid-row-start: 6;
+    grid-column-end: span 1;
+    grid-row-end: 6;
+}
+
+/* Slider */
+#Gallery__slider {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 6;
+    background-color: hsl(0, 0%, 0%, 0.7);
+    width: 100%;
+    height: 100%;
+    /* display: flex; <-it's already declared in JS */
+    justify-content: center;
+    align-items: center
+}
+#Gallery__slider img {
+    max-width: 50%;
+    max-height: 98%;
+}
+#Gallery__slider .arrow {
+    width: 150px;
+    margin: 20px;
+    position: relative;
+    z-index: 4;
+}
+#Gallery__slider .left {
+    transform: rotate(90deg);
+}
+#Gallery__slider .right {
+    transform: rotate(-90deg);
+}
+
+@media(max-width: 1450px) {
+    #Gallery {
+        width: 600px;
+    }
+}
+@media(max-width: 1450px) {
+    #Gallery {
+        margin: 20px 0 20px 340px;
+    }
+}
+@media(max-width: 1250px) {
+
+    #Gallery__slider img {
+        max-width: 70%;
+    }
+    #Gallery__slider .arrow {
+        width: 110px;
+        margin: 10px;
+    }
+}
+
+@media(max-width: 1000px) {
+    #Gallery__slider img {
+        max-height: 96%;
+    }
+    #Gallery__slider .arrow {
+        width: 110px;
+    }
+    #Gallery {
+        margin: 20px auto;
+    }
+}
+
+@media(max-width: 800px) {
+    #Gallery__slider .arrow {
+        width: 80px;
+    }
+}
+@media(max-width: 650px) {
+    #Gallery {
+        width: 95%;
+    }
+}
+@media(max-width: 600px) {
+    #Gallery__slider img {
+        max-width: 70%;
+    }
+    #Gallery__slider .arrow {
+        width: 60px;
+        margin: 0;
+    }
+}
+
+@media(max-width: 400px) {
+    #Gallery__grid {
+        grid-template: repeat(11, 8%) / repeat(2, 49.5%);
+        gap: 1% 1%;
+    }
+    #Gallery__slider img {
+        max-width: 75%;
+    }
+    #Gallery__slider .arrow {
+        width: 40px;
+    }
+}

@@ -6,6 +6,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Footer from './components/Footer';
 import ForPatient from './pages/ForPatient';
+import Gallery from './pages/Gallery';
 import Header from './components/Header';
 import Location from './pages/Location';
 import Menu from './components/Menu';
@@ -25,7 +26,7 @@ function App() {
         <Routes>
           <Route exact path='/' element={<Start />} />
           <Route path='/about' element={<About />} />
-          {/* <Route path='/about' element={<Thanks />} /> */}
+          <Route path='/gallery' element={<Gallery />} />
           <Route path='/offer' element={<Offer />} />
           <Route path='/prices' element={<Prices />} />
           <Route path='/forpatient' element={<ForPatient />} />
