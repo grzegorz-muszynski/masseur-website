@@ -121,9 +121,22 @@
 
 @media(max-width: 400px) {
     #Gallery__grid {
-        grid-template: repeat(11, 8%) / repeat(2, 49.5%);
-        gap: 1% 1%;
+        grid-template: repeat(11, 8.7%) / repeat(2, 49%);
+        gap: 0.3% 2%;
     }
+    #Gallery__grid img[data-number="21"] {
+        grid-column-start: 1;
+        grid-row-start: 11;
+        grid-column-end: span 1;
+        grid-row-end: 11;
+    }
+    #Gallery__grid img[data-number="22"] {
+        grid-column-start: 2;
+        grid-row-start: 11;
+        grid-column-end: span 1;
+        grid-row-end: 11;
+    }
+
     #Gallery__slider img {
         max-width: 75%;
     }
