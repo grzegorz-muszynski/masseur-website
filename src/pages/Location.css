@@ -1,6 +1,3 @@
-* {
-    /* border: 1px solid red; */
-}    
 #Location {
     width: 1000px;
     margin: 0 auto;
@@ -136,11 +133,6 @@
     #Location__wrapper__miechow p:nth-child(1),
     #Location__wrapper__bibice p:nth-child(1) {
         font-size: 20px;
-    }
-    @media (max-width: 500px) {
-        #Location h2 {
-            /* width: 320px; */
-        }
     }
     @media (max-width: 360px) {
         #Location h2 {

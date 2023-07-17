@@ -1,19 +1,9 @@
-/* .sk-ww-google-reviews {
-    width: 400px;
-    height: 400px;
-} */
-
 #Opinions {
     margin-top: 20px;
     width: 900px;
     margin: 0 auto;
     font-size: 21px;
 }
-/* #google {
-    width: 200px;
-    display: block;
-    margin: 5px auto 15px;
-} */
 #Opinions h2 {
     text-align: center;
     color: hsl(201, 63%, 26%);
@@ -45,11 +35,6 @@
     background-color: hsl(201, 63%, 76%);
     transition: background-color 0.5s;
 }
-/* #Opinions h3 span {
-    font-family: arial;
-    font-size: 35px;
-    font-weight: 700;
-} */
 #Opinions__reviews-google {
     display: inline-flex;
     flex-wrap: wrap;
@@ -65,21 +50,7 @@
 }
 #Opinions__reviews-booksy img {
     width: 100%;
-    /* margin: 1px auto; */
 }
-/* .Testimonial__desc {
-    margin: 0;
-}
-.Testimonial__date {
-    text-align: right;
-    margin: 0 0 10px;
-} */
-/* #Opinions__separator,
-.Testimonial div {
-    text-align: center;
-    font-size: 35px;
-    color: hsl(201, 63%, 26%);
-} */
 
 @media (max-width: 1590px) {
     #Opinions {

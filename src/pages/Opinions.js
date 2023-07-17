@@ -1,26 +1,6 @@
 import "./Opinions.css";
 
 export default function Opinions() {
-    // const url = `https://mybusiness.googleapis.com/v4/accounts/{16316251523711171230}/locations/{ChIJnwkhEdgrF0cRwMAwqQIE5uA}/reviews`;
-    // const url = `https://mybusiness.googleapis.com/v4/accounts/{49761590256-2h8c29r6ooqt54bfir3sb10u2dir6mui.apps.googleusercontent.com}/locations/{ChIJnwkhEdgrF0cRwMAwqQIE5uA}/reviews`;
-    // const [data, setData] = useState([])
-
-    // const fetchData = async () => {
-    //     try {
-    //         const res = await fetch(url)
-    //         const dataObject = await res.json()
-    //         const json = await Object.entries(dataObject.data)
-
-    //         console.log('data: ')
-    //         console.log('data: ', json)
-    //         setData(json)
-    //     } catch (error) {
-    //         console.log('Error!')
-    //     }
-    // }
-
-    // {fetchData()}
-
     return (
         <div id="Opinions">
             <h2>Przeczytaj opinie i przekonaj się że możesz nam zaufać</h2>

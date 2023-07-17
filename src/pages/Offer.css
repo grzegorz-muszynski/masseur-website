@@ -1,6 +1,3 @@
-*{
-    /* border: 1px solid red; */
-}
 .Offer {
     width: 1056px;
     margin: 0 auto;
@@ -9,11 +6,6 @@
     color: hsl(201, 63%, 24%);
     text-align: center;
 }
-/* Below there must be double selection - otherwise the text-align is overwritten by 
-.Offer p {
-    text-align: justify;
-}
-*/
 .Offer .Offer__title {
     font-size: 20px;
     text-align: center;
@@ -37,7 +29,6 @@
 }
 @media(max-width: 1500px) {
     .Offer {
-        /* width: 970px; */
         width: calc(100% - 410px);
     }
 }
