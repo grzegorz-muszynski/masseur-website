@@ -4,7 +4,9 @@ import "./Gallery.css";
 export default function Gallery() {
     const [slide, setSlide] = useState("1");
     const [ifShow, setIfShow] = useState(false);
-    const thumbnails = [];
+    let thumbnailsMain = [];
+    let thumbnailsMiechow = [];
+    let thumbnailsBibice = [];
 
     const displaySlides = (e) => {
         let newSlide = e.target.getAttribute('data-number');
@@ -13,7 +15,7 @@ export default function Gallery() {
     }
 
     const nextSlide = () => {
-        if (slide === '22') {
+        if (slide === '27') {
             setSlide('1')
         } else {
             let currentNumber = slide;
@@ -25,7 +27,7 @@ export default function Gallery() {
 
     const prevSlide = () => {
         if (slide === '1') {
-            setSlide('22')
+            setSlide('27')
         } else {
             let currentNumber = slide;
 
@@ -41,8 +43,32 @@ export default function Gallery() {
         setIfShow(false)
     }
 
-    for (let i = 1; i < 23; i++) {
-        thumbnails.push(
+    for (let i = 1; i < 11; i++) {
+        thumbnailsMain.push(
+            <img 
+                src={require(`../assets/galleryThumbnails/mini${i}.jpg`)} 
+                onClick={displaySlides} 
+                key={'Gallery thumbnail no.: ' + i} 
+                data-number={i} 
+                alt='Masaż leczniczy i relaksacyjny'
+            />
+        )
+    }
+
+    for (let i = 11; i < 21; i++) {
+        thumbnailsMiechow.push(
+            <img 
+                src={require(`../assets/galleryThumbnails/mini${i}.jpg`)} 
+                onClick={displaySlides} 
+                key={'Gallery thumbnail no.: ' + i} 
+                data-number={i} 
+                alt='Masaż leczniczy i relaksacyjny'
+            />
+        )
+    }
+
+    for (let i = 21; i < 28; i++) {
+        thumbnailsBibice.push(
             <img 
                 src={require(`../assets/galleryThumbnails/mini${i}.jpg`)} 
                 onClick={displaySlides} 
@@ -56,10 +82,21 @@ export default function Gallery() {
     return (
         <div id='Gallery'>
             <h1>Galeria</h1>
+            {/* Grid no. 1 */}
+            <div id="Gallery__grid-main">
+                {thumbnailsMain}
+            </div>
 
-            {/* Grid */}
-            <div id="Gallery__grid">
-                {thumbnails}
+            <h1>Salon w Miechowie</h1>
+            {/* Grid no. 1 */}
+            <div id="Gallery__grid-miechow">
+                {thumbnailsMiechow}
+            </div>
+
+            <h1>Gabinet w Bibicach</h1>
+            {/* Grid no. 1 */}
+            <div id="Gallery__grid-bibice">
+                {thumbnailsBibice}
             </div>
 
             {/* Slider */}
