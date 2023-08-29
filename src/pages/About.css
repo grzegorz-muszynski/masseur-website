@@ -2,7 +2,7 @@
     /* border: 1px solid red; */
 }
 #About {
-    margin: 20px 40px 0 250px;
+    margin: 20px auto;
 }
 #About h1 {
     text-align: center;
@@ -22,7 +22,7 @@
 #About__grid {
     display: grid;
     margin: 20px auto 60px;
-    max-width: 1200px;
+    max-width: 1000px;
     width: 80%;
     grid-template: 24% 24% 24% 24% / 19% 19% 19% 19% 19%;
     gap: 1.33% 1.25%;
@@ -33,6 +33,7 @@
     object-fit: cover;
     border-radius: 5px;
     border: 2px solid hsl(120, 100%, 15%);
+    cursor: pointer;
 }
 #About__grid img[data-number="2"] {
     grid-column-start: 2;
@@ -80,6 +81,11 @@
 }
 #About__slider .right {
     transform: rotate(-90deg);
+}
+@media(max-width: 1700px) {
+    #About {
+        margin: 20px 0px 0 200px;
+    }
 }
 @media(max-width: 1450px) {
     .About__biogram {
@@ -189,8 +195,6 @@
     }
 }
 @media(max-width: 400px) {
-    .About__biogram {
-    }
     #About__slider img {
         width: 75%;
     }

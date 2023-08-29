@@ -1,11 +1,11 @@
 import "./Header.css";
-import {ReactComponent as Marka} from '../assets/logomarka.svg';
+import {ReactComponent as Logo} from '../assets/logomarka.svg';
 
 export default function Header() {
 
     return (
         <div id="Header">
-            <Marka className='Marka' />
+            <Logo className='Logo' />
             <video src={require('../assets/massage.mp4')} type="video/mp4" autoPlay loop muted playsInline alt="Masaż relaksacyjny, leczniczy Miechów" />
 
             <div id="Header__icons">
