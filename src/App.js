@@ -13,6 +13,7 @@ import Menu from './components/Menu';
 import Offer from './pages/Offer';
 import Opinions from './pages/Opinions';
 import Prices from './pages/Prices';
+import ScrollToTop from './components/ScrollToTop';
 import Start from './pages/Start';
 import Thanks from './pages/Thanks';
 import Vouchers from './pages/Vouchers';
@@ -21,6 +22,7 @@ function App() {
   return (
     <Router>
       <div id='App'>
+        <ScrollToTop />
         <Header />
         <Menu />
         <Routes>
