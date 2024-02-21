@@ -1,10 +1,22 @@
 .Prices {
+    box-sizing: border-box;
     width: 800px;
     margin: 0 auto;
+    padding-bottom: 70px;
+}
+.Prices h3 {
+    margin: 16px auto 24px;
+    color: hsl(201, 63%, 24%);
+    font-size: 28px;
+    text-align: center;
+    font-weight: 1000;
 }
 .Prices table {
-    margin: 5px auto;
-
+    margin: 10px auto;
+    text-align: right;
+    border: 2px solid black;
+    /* padding: 4px; */
+    border-radius: 10px;
 }
 .Prices tbody {
     margin: 0 auto;
@@ -17,66 +29,24 @@
 .Prices tbody tr:nth-child(even) {
     background-color: hsl(201, 63%, 28%);
 }
-.Prices td[colspan="3"] {
-    text-align: center;
-    color: hsl(201, 63%, 24%);
-    background-color: hsl(74, 80%, 36%);
-    padding-left: 25px;
-    font-size: 23px;
-    font-weight: bold;
+.Prices tr:first-child td:first-child {
+    border-radius: 10px 0 0 0;
 }
-.Prices tr :nth-child(1),
-.Prices tr :nth-child(2) {
-    padding-right: 25px;
+.Prices tr:first-child td:last-child {
+    border-radius: 0 10px 0 0;
 }
-.Prices tr :nth-child(3),
-.Prices tr :nth-child(2) {
-    text-align: right;
+.Prices tr:last-child td:first-child {
+    border-radius: 0 0 0 10px;
 }
-@media(max-width: 1360px) {
+.Prices tr:last-child td:last-child {
+    border-radius: 0 0 10px 0;
+}
+.Prices tr td {
+    padding: 15px 30px;
+}
+
+@media (max-width: 830px) {
     .Prices {
-        margin-left: 250px;
-    }
-}
-@media(max-width: 1000px) {
-    .Prices {
-        margin: 0 auto;    
-        width: 570px;
-    }
-}
-@media(max-width: 610px) {
-    .Prices,
-    .Prices tbody {
-        width: 470px;
-    }
-    .Prices td[colspan="3"] {
-        width: 100%;
-        padding: 0;
-    }
-    .Prices tr :nth-child(1),
-    .Prices tr :nth-child(2) {
-        padding-right: 0;
-    }
-}
-@media(max-width: 500px) {
-    .Prices,
-    .Prices tbody {
-        width: 410px;
-    }
-    .Prices tr :nth-child(1) {
-        width: 200px;
-    }
-    .Prices tr :nth-child(2),
-    .Prices tr :nth-child(3) {
-        text-align: center;
-    }
-}
-@media(max-width: 440px) {
-    .Prices,
-    .Prices tbody {
-        width: 280px;
-    }
-    .Prices tr :nth-child(1) {
-        width: 150px;
+        width: 90vw;
     }
 }
