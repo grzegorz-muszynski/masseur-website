@@ -67,17 +67,17 @@ export default function Gallery() {
         )
     }
 
-    for (let i = 21; i < 28; i++) {
-        thumbnailsBibice.push(
-            <img 
-                src={require(`../assets/galleryThumbnails/mini${i}.jpg`)} 
-                onClick={displaySlides} 
-                key={'Gallery thumbnail no.: ' + i} 
-                data-number={i} 
-                alt='Masaż leczniczy i relaksacyjny'
-            />
-        )
-    }
+    // for (let i = 21; i < 28; i++) {
+    //     thumbnailsBibice.push(
+    //         <img 
+    //             src={require(`../assets/galleryThumbnails/mini${i}.jpg`)} 
+    //             onClick={displaySlides} 
+    //             key={'Gallery thumbnail no.: ' + i} 
+    //             data-number={i} 
+    //             alt='Masaż leczniczy i relaksacyjny'
+    //         />
+    //     )
+    // }
 
     return (
         <div id='Gallery'>
@@ -93,11 +93,10 @@ export default function Gallery() {
                 {thumbnailsMiechow}
             </div>
 
-            <h1>Gabinet w Bibicach</h1>
-            {/* Grid no. 1 */}
+            {/* <h1>Gabinet w Bibicach</h1>
             <div id="Gallery__grid-bibice">
                 {thumbnailsBibice}
-            </div>
+            </div> */}
 
             {/* Slider */}
             <div 

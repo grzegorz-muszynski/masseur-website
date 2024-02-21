@@ -1,8 +1,10 @@
+/* * {border: 1px solid red} */
+
 .Prices {
     box-sizing: border-box;
     width: 800px;
     margin: 0 auto;
-    padding-bottom: 70px;
+    padding-bottom: 80px;
 }
 .Prices h3 {
     margin: 16px auto 24px;
