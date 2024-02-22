@@ -2,9 +2,9 @@
     background-color: hsl(74, 80%, 36%);
 }
 #App {
+    box-sizing: border-box;
     position: relative;
-    min-height: 100vh;
-    padding-bottom: 30px; /* the place for the Footer */
+    padding-bottom: 50px; /* the place for the Footer */
 }
 * div {
     font-family: cinzel;

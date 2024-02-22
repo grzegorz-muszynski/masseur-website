@@ -67,18 +67,6 @@ export default function Gallery() {
         )
     }
 
-    // for (let i = 21; i < 28; i++) {
-    //     thumbnailsBibice.push(
-    //         <img 
-    //             src={require(`../assets/galleryThumbnails/mini${i}.jpg`)} 
-    //             onClick={displaySlides} 
-    //             key={'Gallery thumbnail no.: ' + i} 
-    //             data-number={i} 
-    //             alt='Masaż leczniczy i relaksacyjny'
-    //         />
-    //     )
-    // }
-
     return (
         <div id='Gallery'>
             <h1>Galeria</h1>
@@ -92,11 +80,6 @@ export default function Gallery() {
             <div id="Gallery__grid-miechow">
                 {thumbnailsMiechow}
             </div>
-
-            {/* <h1>Gabinet w Bibicach</h1>
-            <div id="Gallery__grid-bibice">
-                {thumbnailsBibice}
-            </div> */}
 
             {/* Slider */}
             <div 
