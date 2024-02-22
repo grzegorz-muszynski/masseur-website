@@ -1,39 +1,26 @@
-/* @font-face {
-
-    src: '../assets/fonts/Prata-Regular';
-} */
 .Footer {
-    background-color: hsl(201, 63%, 46%);
-    height: 24px;
-    line-height: 24px;
-    width: 100%;
-    position: absolute;
-    z-index: 1;
     bottom: 0;
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    line-height: 30px;
     font-family: lato;
+    background-color: hsl(201, 63%, 46%);
     font-size: 15px;
 }
 .Footer::before {
     content: 'Copyright © 2023 ODNOWA Aneta Kubik';
-    padding-left: 6px;
+    padding: 0 5px;
 }
 .Footer::after {
     content: 'Realizacja ARDEO Grzegorz Muszyński';
-    float: right;
-    padding-right: 6px;
+    padding: 0 5px;
 }
 
-@media(max-width: 540px) {
+@media(max-width: 600px) {
     .Footer {
-        position: relative;
-        top: 31px;
-        height: 48px;
-    }
-    .Footer::after,
-    .Footer::before {
-        display: block;
-        padding: 0;
-        width: 100%;
-        text-align: center;
+        flex-direction: column;
     }
 }

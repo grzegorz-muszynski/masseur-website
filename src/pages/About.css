@@ -62,7 +62,7 @@
     background-color: hsl(0, 0%, 0%, 0.7);
     width: 100%;
     height: 100%;
-    /* display: flex; <-it's already declared in JS */
+    /* display: flex; <--it's already declared in JS */
     justify-content: center;
     align-items: center
 }
