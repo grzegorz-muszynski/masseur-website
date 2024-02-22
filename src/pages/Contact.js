@@ -16,8 +16,6 @@ export default function Contact() {
             </div>
 
             <a href="https://booksy.com/pl-pl/86946_odnowa_masaz_10052_miechow?do=invite&_branch_match_id=1016433891075084321&utm_medium=merchant_customer_invite&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXT07J0UvKz88urtRLzs%2FVL4wy9K4MMipPrUwCAFgQoA4iAAAA">Booksy - salon Odnowa, Miechów</a>
-
-            <a href="https://booksy.com/pl-pl/180086_angel-nails-piekne-paznokcie_paznokcie_10022_zielonki/staffer/394262#ba_s=bd_1">Booksy - salon Angels Nails, Bibice</a>
             
             <form action="https://formsubmit.co/0c52b8f8e1db2e69954b1db9a271c054" method="POST">
                 <div className="Contact__all-inputs">
