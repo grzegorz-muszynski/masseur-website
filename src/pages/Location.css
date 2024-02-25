@@ -96,6 +96,9 @@
         border: 0;
         margin: 35px auto;
     }
+    #Location__wrapper h3 {
+        font-size: 20px;
+    }
     #Location__wrapper p {
         text-align: center;
         margin: 12px 0;
