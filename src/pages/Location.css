@@ -1,3 +1,5 @@
+*{border: 1px solid red;}
+    
 #Location {
     width: 1000px;
     margin: 0 auto;
@@ -15,67 +17,47 @@
 #Location__wrapper {
     width: 100%;
 }
-#Location__wrapper__miechow,
-#Location__wrapper__bibice {
+#Location__wrapper {
     width: 49%;
     display: inline-block;
 }
-
-#Location__wrapper__bibice {
-    border-left: 3px solid hsl(240, 100%, 30%);
-    padding-left: 4px;
-}
-#Location__wrapper__miechow {
+#Location__wrapper {
     padding-right: 4px;
 }
-#Location__wrapper__miechow p {
+#Location__wrapper p {
     display: block; 
     text-align: right;
     padding-right: 5px;
 }
-#Location__wrapper__bibice p {
-    padding-left: 5px;
-}
-#Location__wrapper__miechow p:nth-child(1),
-#Location__wrapper__bibice p:nth-child(1) {
+#Location__wrapper p:nth-child(1) {
     font-size: 22px;
     font-weight: 1000;
     color: hsl(201, 63%, 26%);
     margin-top: 0;
 }
-#Location__wrapper__miechow a,
-#Location__wrapper__bibice a {
+#Location__wrapper p a {
     font-weight: 1000;
     border-radius: 15px;
     text-decoration: none;
     padding: 5px 8px;
 }
-#Location__wrapper__miechow a {
+#Location__wrapper p a {
     border: 1px solid hsl(240, 100%, 30%);
     background-color: hsl(201, 63%, 56%);
     color: hsl(240, 100%, 30%);
 }
-#Location__wrapper__bibice a {
-    border: 1px solid hsl(300, 100%, 15%);
-    background-color: hsl(300, 100%, 35%);
-    color: hsl(300, 100%, 15%);
-}
-#Location__wrapper__miechow a:hover {
+#Location__wrapper p a:hover {
     background-color: hsl(201, 63%, 76%);
     transition: background-color 0.5s;
 }
-#Location__wrapper__bibice a:hover {
-    background-color: hsl(300, 100%, 65%);
-    transition: background-color 0.5s;
-}
-#Location__wrapper__miechow iframe,
-#Location__wrapper__bibice iframe {
+
+#Location__wrapper iframe {
     width: 100%;
     height: 300px;
     border: 2px solid black;
     border-radius: 10px;
 }
-#Location__wrapper__miechow {
+#Location__wrapper {
     margin-right: 3px;
 }
 
@@ -93,8 +75,7 @@
     #Location {
         width: calc(100% - 400px);
     }
-    #Location__wrapper__miechow,
-    #Location__wrapper__bibice {
+    #Location__wrapper {
         width: 48%;
     }
     #Location h2 {
@@ -114,24 +95,20 @@
         width: 330px;
         margin: 0 auto;
     }
-    #Location__wrapper__miechow,
-    #Location__wrapper__bibice {
+    #Location__wrapper {
         display: block;
         width: 97%;
         border: 0;
         margin: 35px auto;
     }
-    #Location__wrapper__miechow p,
-    #Location__wrapper__bibice p {
+    #Location__wrapper p {
         text-align: center;
         margin: 12px 0;
     }
-    #Location__wrapper__miechow iframe,
-    #Location__wrapper__bibice iframe {
+    #Location__wrapper iframe {
         margin-top: 10px;
     }
-    #Location__wrapper__miechow p:nth-child(1),
-    #Location__wrapper__bibice p:nth-child(1) {
+    #Location__wrapper p:nth-child(1) {
         font-size: 20px;
     }
     @media (max-width: 360px) {
