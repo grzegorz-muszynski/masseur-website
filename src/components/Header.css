@@ -1,6 +1,9 @@
 *{
     /* border: 1px solid red; */
 }
+#Header__wrapper {
+    width: 580px;
+}
 #Header video {
     width: 100%;
     object-fit: cover;
@@ -23,7 +26,7 @@
     margin-top: 50px;
     margin-left: calc(50vw - 250px);
 }
-#Header__icons {
+#Header__wrapper__icons {
     position: absolute;
     top: 0;
     z-index: 3;
@@ -33,14 +36,24 @@
     display: flex;
     justify-content: space-between;
 }
-#Header__icons :nth-child(1) img, 
-#Header__icons :nth-child(2) img {
+#Header__wrapper__icons :nth-child(1) img, 
+#Header__wrapper__icons :nth-child(2) img {
     width: 40px;
     height: 40px;
 }
-#Header__icons :nth-child(3) img {
+#Header__wrapper__icons :nth-child(3) img {
     width: 160px;
     height: 40px;
+}
+@media(max-width: 1130px) {
+    #Header__wrapper {
+        margin-left: 100px;
+    }
+}
+@media(max-width: 1000px) {
+    #Header__wrapper {
+        margin-left: 0;
+    }
 }
 @media(max-width: 500px) {
     #Header .Logo {
@@ -48,16 +61,16 @@
         padding: 3%;
         width: 94%;
     }
-    #Header__icons {
+    #Header__wrapper__icons {
         width: 190px;
         margin-left: calc(50vw - 85px);
     }
-    #Header__icons :nth-child(1) img, 
-    #Header__icons :nth-child(2) img {
+    #Header__wrapper__icons :nth-child(1) img, 
+    #Header__wrapper__icons :nth-child(2) img {
         width: 30px;
         height: 30px;
     }
-    #Header__icons :nth-child(3) img {
+    #Header__wrapper__icons :nth-child(3) img {
         width: 120px;
         height: 30px;
     }
