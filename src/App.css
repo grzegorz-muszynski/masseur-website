@@ -4,7 +4,12 @@
 #App {
     box-sizing: border-box;
     position: relative;
-    padding-bottom: 80px; /* the place for the Footer */
+    padding-bottom: 60px; /* the place for the Footer */
+}
+@media(max-width: 1000px) {
+    #App {
+        padding-bottom: 80px; /* the place for the Footer */
+    }
 }
 * div {
     font-family: cinzel;
@@ -16,7 +21,7 @@ span {
     color: hsl(201, 63%, 24%);
 }
 
-/* Scrollbar */
+/* ---Scrollbar--- */
 ::-webkit-scrollbar {
     width: 17px;
 }
