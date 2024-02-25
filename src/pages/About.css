@@ -22,7 +22,7 @@
 #About__grid {
     display: grid;
     margin: 20px auto 60px;
-    max-width: 1000px;
+    max-width: 920px;
     width: 80%;
     grid-template: 24% 24% 24% 24% / 19% 19% 19% 19% 19%;
     gap: 1.33% 1.25%;
@@ -88,7 +88,8 @@
     }
 }
 @media(max-width: 1450px) {
-    .About__biogram {
+    .About__biogram,
+    #About__grid {
         width: 740px;
     }
 }
@@ -96,7 +97,8 @@
     #About {
         margin: 20px 40px 0 320px;
     }
-    .About__biogram {
+    .About__biogram,
+    #About__grid {
         width: 570px;
     }
     #About__slider img {
