@@ -88,14 +88,14 @@ export default function Gallery() {
                 onClick={closeSlider}
             >
                 <img 
-                    src={require(`../assets/arrowWhite.png`)} 
+                    src={require(`../assets/arrows/arrowWhite.png`)} 
                     className='arrow left' 
                     onClick={prevSlide}
                     alt='Gabinet masażu Miechów'
                 />
                 <img src={require(`../assets/gallery/big${slide}.jpg`)} alt='Certyfikowany gabinet masażu' />
                 <img 
-                    src={require(`../assets/arrowWhite.png`)} 
+                    src={require(`../assets/arrows/arrowWhite.png`)} 
                     className='arrow right' 
                     onClick={nextSlide}
                     alt='Gabinet masażu Bibice'

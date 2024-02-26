@@ -17,7 +17,7 @@ export default function Menu() {
             <div className={showMenu ? 'Menu__bar' : 'Menu__bar Menu__bar-hide'} >
                 <img 
                     className={showMenu ? 'Menu__close Menu_close-display' : 'Menu__close'}
-                    src={require('../assets/close.png')}
+                    src={require('../assets/menu/close.png')}
                     onClick={()=>{setShowMenu(false)}}
                     alt='Zapisz się na masaż'
                 />
