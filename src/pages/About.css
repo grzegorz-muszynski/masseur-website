@@ -85,6 +85,7 @@
     margin: 20px;
     position: relative;
     z-index: 4;
+    cursor: pointer;
 }
 #About__slider .left {
     transform: rotate(90deg);
