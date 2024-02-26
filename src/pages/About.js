@@ -4,7 +4,7 @@ import "./About.css";
 export default function About() {
     const [slide, setSlide] = useState("1");
     const [ifShow, setIfShow] = useState(false);
-    const certsQuantity = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
+    const certsQuantity = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17];
 
     const displayCert = (e) => {
         let newSlide = e.target.getAttribute('data-number');
@@ -13,7 +13,7 @@ export default function About() {
     }
 
     const nextSlide = () => {
-        if (slide === '15') {
+        if (slide === '17') {
             setSlide('1')
         } else {
             let currentNumber = slide;
@@ -25,7 +25,7 @@ export default function About() {
 
     const prevSlide = () => {
         if (slide === '1') {
-            setSlide('15')
+            setSlide('17')
         } else {
             let currentNumber = slide;
 
@@ -57,7 +57,7 @@ export default function About() {
             <div id="About__grid">
                 {certsQuantity.map((number) => (
                     <img 
-                        src={require(`../assets/thumbs/cert${number}.jpg`)} 
+                        src={require(`../assets/certificatesThumbs/cert${number}.jpg`)} 
                         onClick={displayCert} 
                         key={number} 
                         data-number={number} 
