@@ -19,7 +19,8 @@ export default function Header() {
                     </a>
 
                     <a href='https://booksy.com/pl-pl/86946_odnowa_masaz_10052_miechow'>
-                        <img src={require("../assets/header/booksyGreen.png")} alt='Masaż Booksy' />
+                        {/* <img src={require("../assets/header/booksyGreen.png")} alt='Masaż Booksy' /> */}
+                        <h3>Zarezerwuj wizytę online</h3>
                     </a>
                 </div>
             </div>
