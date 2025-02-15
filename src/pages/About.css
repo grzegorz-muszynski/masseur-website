@@ -191,7 +191,7 @@
         grid-column-end: span 2;
     }
     #About__grid img[data-number="17"] {
-        grid-column-start: 2;
+        grid-column-start: 1;
         grid-row-start: 8;
         grid-column-end: span 4;
         grid-row-end: span 1;
