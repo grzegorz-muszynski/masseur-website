@@ -10,10 +10,8 @@ export default function Start() {
             <h2>zaprasza na zabiegi do salonu</h2>
             <h2><span>ODNOWA</span></h2>
             <h2>przy ul. Mickiewicza 3 w Miechowie</h2>
-        
-            <OnlineBookingBtn />
-        
             <h2><span>Rejestracja tel./SMS: 57 58 57 130</span></h2>
+            <OnlineBookingBtn hasBackground={true} />
         </div>
     )
 }
