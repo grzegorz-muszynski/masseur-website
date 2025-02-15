@@ -58,12 +58,17 @@
         width: 94%;
     }
     #Header__wrapper__icons {
-        width: 190px;
-        margin-left: calc(50vw - 85px);
+        width: 250px;
+        margin-left: calc(50vw - 125px);
     }
     #Header__wrapper__icons :nth-child(1) img, 
     #Header__wrapper__icons :nth-child(2) img {
         width: 30px;
         height: 30px;
+    }
+    #Header__wrapper__icons :nth-child(3) {
+        font-size: 12px;
+        height: 11px;
+        padding: 5px 8px 7px;
     }
 }

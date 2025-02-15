@@ -8,13 +8,14 @@
     cursor: pointer;
     text-decoration: none;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    animation: pulse 2s infinite;
 }
 
 .pulse {
-  @keyframes pulse {
-    0% { background-color: hsl(74, 80%, 36%); }
-    50% { background-color: hsl(74, 80%, 49%); }
-    100% { background-color: hsl(74, 80%, 36%); }
-  }
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% { background-color: hsl(74, 80%, 36%); }
+  50% { background-color: hsl(74, 80%, 39%); }
+  100% { background-color: hsl(74, 80%, 36%); }
 }
