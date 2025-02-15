@@ -46,10 +46,15 @@
     .Start {
         width: 285px;
         margin: 20px auto 30px;
+        display: flex;
+        flex-direction: column;
     }
     .Start h2 {
         margin: 0px;
         line-height: 36px;
+    }
+    .Start a {
+        margin-top: 10px;
     }
     .Start .Start__text {
         margin: 26px 0 40px;

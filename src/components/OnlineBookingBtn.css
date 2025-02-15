@@ -16,6 +16,6 @@
 
 @keyframes pulse {
   0% { background-color: hsl(74, 80%, 36%); }
-  50% { background-color: hsl(74, 80%, 39%); }
+  50% { background-color: hsl(74, 80%, 42%); }
   100% { background-color: hsl(74, 80%, 36%); }
 }
