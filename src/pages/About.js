@@ -29,7 +29,7 @@ export default function About() {
         } else {
             let currentNumber = slide;
 
-            currentNumber--; // Subtraction automaticaly converts string into number
+            currentNumber--;
             currentNumber = String(currentNumber);
             setSlide(currentNumber);
         }
