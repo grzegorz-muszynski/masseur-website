@@ -16,7 +16,8 @@
 }
 #Location__wrapper {
     width: 100%;
-    display: block;
+    display: flex;
+    flex-direction: column;
 }
 #Location__wrapper h3 {
     margin: 0;
@@ -28,10 +29,14 @@
     text-decoration-thickness: 1.5px;
     color: hsl(201, 63%, 26%);
 }
+#Location__wrapper a {
+    margin: 10px auto 20px;
+}
 #Location__wrapper p {
     display: block; 
     text-align: center;
     padding-right: 5px;
+    margin: 5px auto;
 }
 #Location__wrapper p a {
     font-weight: 1000;
@@ -91,17 +96,12 @@
         margin: 0 auto;
     }
     #Location__wrapper {
-        display: block;
         width: 97%;
         border: 0;
         margin: 35px auto;
     }
     #Location__wrapper h3 {
         font-size: 20px;
-    }
-    #Location__wrapper p {
-        text-align: center;
-        margin: 12px 0;
     }
     #Location__wrapper iframe {
         margin-top: 10px;
