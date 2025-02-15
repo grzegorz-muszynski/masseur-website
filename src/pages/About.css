@@ -12,9 +12,19 @@
 }
 .About__biogram {
     max-width: 920px;
-    text-align: justify;
     margin: 20px auto 60px;
-    text-indent: 40px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 10px;
+    align-items: start;
+}
+.About__biogram img {
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+}
+.About__biogram p {
+    margin: 0;
 }
 #About__grid {
     display: grid;
@@ -196,6 +206,8 @@
 @media(max-width: 600px) {
     .About__biogram {
         width: 420px;
+        display: flex;
+        flex-direction: column;
     }
     #About__slider img {
         width: 75%;
@@ -209,6 +221,7 @@
     .About__biogram {
         width: 280px;
         text-align: center;
+        align-items: center;
         text-indent: 0;
     }
     #About__grid {
