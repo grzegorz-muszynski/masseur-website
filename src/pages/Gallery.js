@@ -14,7 +14,7 @@ export default function Gallery() {
     }
 
     const nextSlide = () => {
-        if (slide === '27') {
+        if (slide === '41') {
             setSlide('1')
         } else {
             let currentNumber = slide;
@@ -26,7 +26,7 @@ export default function Gallery() {
 
     const prevSlide = () => {
         if (slide === '1') {
-            setSlide('27')
+            setSlide('41')
         } else {
             let currentNumber = slide;
 
@@ -65,7 +65,7 @@ export default function Gallery() {
             />
         )
     }
-
+    
     for (let i = 21; i < 32; i++) {
         thumbnailsMain.push(
             <img 
@@ -77,7 +77,43 @@ export default function Gallery() {
             />
         )
     }
-
+    
+    for (let i = 32; i < 36; i++) {
+        thumbnailsMiechow.push(
+            <img 
+                src={require(`../assets/galleryThumbnails/mini${i}.jpg`)} 
+                onClick={displaySlides} 
+                key={'Gallery thumbnail no.: ' + i} 
+                data-number={i} 
+                alt='Masaż leczniczy i relaksacyjny'
+            />
+        )
+    }
+    
+    for (let i = 36; i < 39; i++) {
+        thumbnailsMain.push(
+            <img 
+                src={require(`../assets/galleryThumbnails/mini${i}.jpg`)} 
+                onClick={displaySlides} 
+                key={'Gallery thumbnail no.: ' + i} 
+                data-number={i} 
+                alt='Masaż leczniczy i relaksacyjny'
+            />
+        )
+    }
+    
+    for (let i = 39; i < 42; i++) {
+        thumbnailsMiechow.push(
+            <img 
+                src={require(`../assets/galleryThumbnails/mini${i}.jpg`)} 
+                onClick={displaySlides} 
+                key={'Gallery thumbnail no.: ' + i} 
+                data-number={i} 
+                alt='Masaż leczniczy i relaksacyjny'
+            />
+        )
+    }
+    
     return (
         <div id='Gallery'>
             <h1>Galeria</h1>
