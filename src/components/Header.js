@@ -1,5 +1,6 @@
 import "./Header.css";
 import {ReactComponent as Logo} from '../assets/header/logomarka.svg';
+import OnlineBookingBtn from "./OnlineBookingBtn";
 
 export default function Header() {
 
@@ -17,11 +18,8 @@ export default function Header() {
                     <a href='https://www.instagram.com/odnowa_aneta_kubik/'>
                         <img src={require("../assets/header/instagram.png")} alt='Masaż' />
                     </a>
-
-                    <a href='https://booksy.com/pl-pl/86946_odnowa_masaz_10052_miechow'>
-                        {/* <img src={require("../assets/header/booksyGreen.png")} alt='Masaż Booksy' /> */}
-                        <h3>Zarezerwuj wizytę online</h3>
-                    </a>
+                    <OnlineBookingBtn hasBackground={false}/>
+                    {/* <img src={require("../assets/header/booksyGreen.png")} alt='Masaż Booksy' /> */}
                 </div>
             </div>
         </div>

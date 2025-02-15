@@ -7,18 +7,15 @@ export default function ForPatient() {
         <div className="ForPatient">
             <h1>Informacje dla Pacjentów</h1>
 
-            <p>Co zabrać ze sobą na zabieg masażu?</p>
+            <p>Ważne informacje dla pacjentów/klientów:</p>
             <ul>
-                <li>Jeśli ma mieć miejsce masaż okolicy karkowej, należy przynieść coś do upięcia długich włosów.</li>
-                <li>W przypadku masażu całościowego można przynieść ręcznik do przykrycia niemasowanych w danej chwili części ciała.</li>
-                <li>Warto zarezerwować nieco więcej czasu, aby móc komfortowo odpocząć po zabiegu. Dzięki temu unikniemy gwałtownego wychłodzenia rozgrzanych masażem obszarów ciała. Szacunkowo: czas masażu + 15-30 minut.</li>
-            </ul>
-            <p>Japoński lifting twarzy Kobido</p>
-            <ul>
-                <li>Na zabieg należy przynieść średniej wielkości ręcznik, zestaw do demakijażu lub przyjść bez makijażu.</li>
-                <li>Przed masażem należy zdjąć łańcuszki i kolczyki.</li>
-                <li>Podczas zabiegu zburzę fryzurę, włosy będą mieć delikatny kontakt ze środkiem poślizgowym.</li>
-                <li>KOBIDO to nie tylko twarz, ale również szyja, barki, ramiona, dekolt oraz górna część pleców.</li>
+                <li>Upnij długie włosy (masaże karku, pleców).</li>
+                <li>Zdejmij biżuterię (łańcuszki, duże kolczyki itp.).</li>
+                <li>Załóż luźną bieliznę lub skorzystaj z naszej jednorazowej bielizny (masaże relaksacyjne).</li>
+                <li>Zmyj makijaż, aby cieszyć się dłuższym masażem twarzy.</li>
+                <li>Masaż Kobido obejmuje także obszar skóry głowy (dlatego nie upinaj włosów) , co wiąże się ze zburzeniem fryzury i nieznacznym naolejowaniem włosów.</li>
+                <li>Zarezerwuj nieco czasu po masażu, aby odpocząć.</li>
+                <li>Zadbaj o ciepły ubiór po masażu (w chłodniejsze dni).</li>
             </ul>
 
             <p>Reakcje miejscowe, które mogą pojawić się po masażu:</p>
