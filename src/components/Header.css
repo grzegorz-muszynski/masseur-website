@@ -57,7 +57,7 @@
     padding: 6px;
     color: white;
     text-decoration: none;
-    border: 3px solid green;
+    border: 3px solid hsl(120, 100%, 25%);
     border-radius: 9px;
 }
 @media(max-width: 1130px) {
@@ -89,8 +89,4 @@
         width: 120px;
         height: 30px;
     }
-    /* #Header__wrapper__icons :nth-child(3) img {
-        width: 120px;
-        height: 30px;
-    } */
 }

@@ -5,6 +5,7 @@
     box-sizing: border-box;
     position: relative;
     padding-bottom: 60px; /* the place for the Footer */
+    min-height: 100vh;
 }
 @media(max-width: 1000px) {
     #App {
