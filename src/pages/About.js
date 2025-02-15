@@ -47,21 +47,21 @@ export default function About() {
             <p  className="About__biogram About__biogram-wider">Podchodzimy indywidualnie do każdego pacjenta/klienta. Patrzymy całościowo na obraz dolegliwości w kontekście trybu życia i pracy zawodowej. Szukamy  skutecznych rozwiązań doraźnych oraz profilaktycznych. Każdego zachęcamy, aby codziennie OD NOWA starał się dbać o swoje zdrowie i kondycję psychofizyczną. Ta idea przyświeca nam od początku naszej  działalności</p>
 
             <div className="About__biogram">
-                <img src={require('../assets/team/Aneta.jpg')} />
+                <img src={require('../assets/team/Aneta.jpg')} alt='Masaż Miechów' />
                 <p>
                     <span>Aneta Kubik</span> - założycielka i właścicielka firmy Odnowa, świadczącej usługi masażu oraz nauki pływania. Absolwentka krakowskiej AWF oraz Małopolskiej Policealnej Szkoły Masażu Nr 2 z Oddziałami Integracyjnymi w Krakowie, zwanej Krakowską Szkołą Masażu (mgr wychowania fizycznego, technika masażysta). Praktykę zawodową odbywała m.in. w Małopolskim Szpitalu Ortopedyczno-Rehabilitacyjnym w Krakowie (dawna nazwa to KCR - Krakowskie Centrum Rehabilitacji, ul. Modrzewiowa), w pracowniach szkolnych i na basenie AGH. Uczestniczyła m.in. jako masażysta w międzynarodowej XIX konferencji REHA FOR THE BLIND IN POLAND 2021 (Centrum Nauki Kopernik w Warszawie) oraz reprezentowała szkołę na Festiwalu Zawodów 2022 w Tauron Arenie w Krakowie, wykonując pokazy różnych rodzajów masaży. Uczestniczka wielu kursów doskonalących w dziedzinie masażu, stale poszerzająca swój warsztat pracy. Pasjonatka pracy z ciałem, całościowo spoglądająca na pacjenta. Ponadto: instruktorka pływania, rekreacji ruchowej ze specjalnością kulturystyka, uczestniczka wielu warsztatów i szkoleń z dziedziny fitness i gimnastyki Pilates.
                 </p>
             </div>
             
             <div className="About__biogram">
-                <img src={require('../assets/team/DIMA.png')} />
+                <img src={require('../assets/team/DIMA.png')} alt='Masaż Miechów' />
                 <p>
                     <span>Dmytro Kuznets</span> - towarzyski i przyjazny masażysta z Ukrainy. W swojej pracy kieruje się indywidualnym podejściem do każdego klienta. Ukończył pełny cykl studiów w Instytucie Medycyny Alternatywnej (Ukraina, Kijów). Posiada wieloletnie doświadczenie jako masażysta, kontynuując tradycje rodzinne w tym obszarze. Wykonuje różne rodzaje masaży: klasyczny masaż leczniczy, masaż relaksacyjny, profilaktyczny, sportowy, masaż antycellulitowy, masaż dziecka oraz specjalny masaż brzucha. Zajmuje się różnymi problematycznymi obszarami ciała. Po masażu wzmożone napięcie mięśni ustępuje, dając uczucie lekkości i zrelaksowania.
                 </p>
             </div>
             
             <div className="About__biogram">
-                <img src={require('../assets/team/Asia.jpeg')} />
+                <img src={require('../assets/team/Asia.jpeg')} alt='Masaż Miechów' />
                 <p>
                     <span>Joanna Kałwa</span> - dyplomowany technik masażu (egzamin państwowy) z doświadczeniem. Masuje z pasją i zaangażowaniem. Ukończyła wiele kursów masażu m.in.: Terapeuta Spa w Medical School oraz Lomi Lomi Nui w Psychologia Dobrego Dotyku. Interesuje się także naturoterapią ;  robi olej dziurawcowy, kadzidła. Jej dewizą jest "słuchaj swojego ciała i zatroszcz się o siebie".
                 </p>

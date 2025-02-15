@@ -16,6 +16,16 @@
     color: hsl(201, 63%, 24%);
     font-weight: 1000;
 }
+.Offer__group__images {
+    margin: 10px 0 10px;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+.Offer__group__images img {
+    width: 30%;
+    max-height: 300px;
+}
 .Offer ul li{
     padding-top: 6px;
 }
@@ -36,5 +46,20 @@
     .Offer {
         margin: 0 auto;
         width: 90%;
+    }
+    .Offer__group__images {
+        margin: 10px 0;
+        width: 330px;
+    }
+    .Offer__group__images img {
+        width: 100px;
+    }
+}
+@media(max-width: 430px) {
+    .Offer__group__images {
+        width: 100%;
+    }
+    .Offer__group__images img {
+        width: 31%;
     }
 }
