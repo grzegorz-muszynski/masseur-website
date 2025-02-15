@@ -1,6 +1,8 @@
 #Contact {
     width: 800px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 #Contact__desc,
 #Contact h1 {
@@ -10,37 +12,13 @@
     color: hsl(201, 63%, 26%);
 }
 #Contact a {
-    font-weight: 1000;
-    text-decoration: none;
-    display: block;
-    width: 300px;
-    text-align: center;
     margin: 15px auto;
-    border: 2px solid black;
-    border-radius: 15px;
-    padding: 5px 8px;
-}
-#Contact a[href*="odnowa"] {
-    background-color: hsl(201, 63%, 46%);
-    color: hsl(201, 63%, 16%);
-}
-#Contact a[href*="odnowa"]:hover {
-    background-color: hsl(201, 63%, 66%);
-    transition: background-color 0.5s;
-}
-#Contact a[href*="angel"] {
-    background-color: hsl(300, 100%, 35%);
-    color: hsl(300, 100%, 15%);
-}
-#Contact a[href*="angel"]:hover {
-    background-color: hsl(300, 100%, 65%);
-    transition: background-color 0.5s;
 }
 .Contact__wrapper {
     width: 256px;
     height: 30px;
     display: flex;
-    margin: 10px auto;
+    margin: 2px auto;
 }
 .Contact__wrapper img,
 .Contact__wrapper p {
@@ -134,11 +112,6 @@
     #Contact form textarea {
         width: 98%;
         margin: 1px 0;
-    }
-    /* Buttons with hyperlink */
-    #Contact a {
-        font-size: 13px;
-        width: 250px;
     }
 }
 @media(max-width: 400px) {

@@ -6,7 +6,7 @@ export default function Location() {
     return (
         <div id="Location">
             <h2>Skorzystaj z naszych usług</h2>
-            <p id="Location__desc">Serdecznie zapraszamy do salonu <span>ODNOWA Aneta Kubik</span> w Miechowie. Zadzwoń do Nas, lub zarezerwuj wizytę online już dzisiaj.</p>
+            <p id="Location__desc">Serdecznie zapraszamy do salonu <span>ODNOWA Aneta Kubik</span> w Miechowie. Zadzwoń do Nas lub zarezerwuj wizytę online już dzisiaj.</p>
             <div id="Location__wrapper">
                 <h3>Adres i kontakt</h3>
                 <p>ul. Adama Mickiewicza 3</p>
