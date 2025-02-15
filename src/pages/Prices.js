@@ -9,26 +9,27 @@ export default function Prices() {
                 <tbody>
                     <tr>
                         <td>30 min.</td>
-                        <td>80 zł</td>
+                        <td>90 zł</td>
                     </tr>
                     <tr>
                         <td>45 min.</td>
-                        <td>110 zł</td>
+                        <td>130 zł</td>
                     </tr>
                     <tr>
                         <td>60 min.</td>
-                        <td>140 zł</td>
-                    </tr>
-                    <tr>
-                        <td>75 min.</td>
                         <td>160 zł</td>
                     </tr>
                     <tr>
+                        <td>75 min.</td>
+                        <td>190 zł</td>
+                    </tr>
+                    <tr>
                         <td>90 min.</td>
-                        <td>180 zł</td>
+                        <td>220 zł</td>
                     </tr>
                 </tbody>   
             </table>
+            <p>Czas masażu jest orientacyjny (tzn. obejmuje całą wizytę pacjenta/klienta)</p>
         </div>
     )
 }
