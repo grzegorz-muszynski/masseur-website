@@ -44,12 +44,12 @@
     width: 445px;
     margin: 1px auto;
 }
-#Opinions__reviews-booksy {
-    max-width: 800px;
-    margin: 2px auto;
-}
-#Opinions__reviews-booksy img {
-    width: 100%;
+.Opinions__reviews-others {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: row; */
+    justify-content: center;
+    /* align-items: center; */
 }
 
 @media (max-width: 1590px) {
@@ -102,9 +102,6 @@
     }
     #Opinions__reviews-google img {
         width: 100%;
-    }
-    #Opinions__reviews-booksy img {
-        margin: -3px 0;
     }
 }
 @media (max-width: 490px) {
