@@ -1,7 +1,7 @@
 .container {
     border: 1px solid #ccc;
     border-radius: 8px;
-    padding: 20px;
+    padding: 10px 15px;
     margin: 10px;
     width: 300px;
 }
@@ -9,17 +9,20 @@
 .rank {
     font-weight: bold;
     font-size: 20px;
-    color: #FFD700; /* gold color for stars */
+    letter-spacing: 5px;
+    color: #FFD700;
 }
 
 .review {
-    font-size: 16px;
+    font-size: 12px;
+    font-weight: 1000;
     color: #333;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .author {
-    font-size: 14px;
+    font-size: 10px;
     font-style: italic;
+    font-weight: 900;
     color: #555;
 }
