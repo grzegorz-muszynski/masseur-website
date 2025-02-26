@@ -97,7 +97,7 @@ export default function About() {
                     src={require(`../assets/arrows/arrowWhite.png`)} 
                     className='arrow right' 
                     onClick={nextSlide}
-                    alt='Gabinet masażu Bibice'
+                    alt='Gabinet masażu Miechów'
                 />
             </div>
         </div>
