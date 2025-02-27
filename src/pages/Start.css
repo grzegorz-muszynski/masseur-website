@@ -5,6 +5,7 @@
     position: relative;
     z-index: 3;
     margin-left: calc(50% - 290px);
+    margin-top: 20px;
 }
 .Start span {
     font-weight: 1000;
