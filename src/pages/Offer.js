@@ -5,7 +5,7 @@ export default function Offer() {
     
     return (
         <div className="Offer">
-            <h1>Masaż</h1>
+            <h1>Masaże</h1>
             <p className="Offer__title">W naszym salonie oferujemy różnorodne rodzaje masażu.</p>
 
             <p className="Offer__group-title">Przeciwbólowe, medyczne:</p>
@@ -48,6 +48,14 @@ export default function Offer() {
                 <li><span>Aloha i Mahalo</span> - relaksacyjny rytuał. Autorski masaż wykonywany przez Asię,  który wprawi Cię w błogi nastrój odprężenia i euforii.Masowany jest tył ciała od paluszków palców stóp aż po płatki uszu. Rozpieść swoje zmysły poprzez przyjemny dotyk masażystki ciepłą oliwą, muzyką uspokajającą i zapachem.</li>
                 <li><span>Pieczęć Mocy</span> - masaż stemplami ziołowymi Asia.Ciało masowane jest ciepłymi stemplami ziołowymi. Stemple zanurzone są w podgrzanym oleju,  wydzielają piękny zapach ( pomarańczy, kawy, rozmarynu, mandarynki, róży, cynamonu,  wanilii). To bogaty w doznania masaż podczas którego ciało niemal  "rozpływa się" z przyjemności.</li>
                 <li><span>Masaż  miodem</span> - masaż ujędrniający Asia. Bardzo popularny masaż wśród Rosjanek.Ujędrnia, pobudza, usuwa toksyny, oczyszcza.Ciepły, płynny miód rozprowadza się po częściach ciała i masuje  energicznymi ruchami.  Następnie zmywa się preparat gazą zanurzoną w chłodnej wodzie. Zabieg  troszeczkę boli, ale czego się nie robi dla urody :) Czas zabiegu ustala się w zależności od obszarów ciała, które  chcemy ujędrnić.</li>
+            </ul>
+
+            <p className="Offer__group-title">Zajęcia sportowo-rekreacyjne:</p>
+            <ul>
+                <li><span>tenis stołowy</span> - wypożyczenie stołu do gry indywidualnej, grupowej  lub z instruktorem.</li> 
+                <li><span>Ćwiczenia „zdrowy kręgosłup"</span> - ćwiczenia ogólnorozwojowe dla osób wykonujących pracę siedzącą, dostosowane do indywidualnych możliwości, prowadzone w kameralnych grupach.</li> 
+                <li><span>Gimnastyka korekcyjna dla dzieci i młodzieży</span> - ćwiczenia w małych grupach z naciskiem na indywidualne potrzeby wg rodzaju wad postawy.</li> 
+                <li><span>Warsztaty</span> - wydarzenia promujące zdrowy tryb życia, aktywne zagospodarowanie czasu wolnego, techniki  relaksacji itp. wg  harmonogramu. </li> 
             </ul>
 
             <p>Nie wiesz jaki masaż wybrać? Zarezerwuj dowolny zabieg z odpowiednią ilością czasu (optymalnie 45min.-1godz.) a rodzaj masażu ustalisz z naszym specjalistą.</p>
