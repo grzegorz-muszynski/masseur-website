@@ -13,8 +13,6 @@ export default function Vouchers() {
 
             <label>Przykładowy Voucher w formie bileciku w formacie DL.</label>
 
-            <BuyVoucherBtn hasBackground={true} />
-
             <p>Zamówienia na vouchery prosimy składać przez tel./sms: <span>57 58 57 130</span></p>
         </div>
     )
