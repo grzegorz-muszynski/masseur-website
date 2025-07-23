@@ -9,22 +9,17 @@
 }
 .Start span {
     font-weight: 1000;
-    color: hsl(201, 63%, 24%);
 }
 .Start p {
     margin: 10px;
 }
 .Start p a {
     font-weight: 1000;
-    color: hsl(201, 63%, 24%);
     text-underline-offset: 2px;
 }
 .Start p a:hover {
     color:hsl(201, 63%, 6%);
     transition: color 0.5s;
-}
-.Start h2 {
-    text-decoration-color: hsl(201, 63%, 24%);
 }
 @media(max-width: 1330px) {
     .Start {

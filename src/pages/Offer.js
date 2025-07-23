@@ -50,14 +50,6 @@ export default function Offer() {
                 <li><span>Masaż  miodem</span> - masaż ujędrniający Asia. Bardzo popularny masaż wśród Rosjanek.Ujędrnia, pobudza, usuwa toksyny, oczyszcza.Ciepły, płynny miód rozprowadza się po częściach ciała i masuje  energicznymi ruchami.  Następnie zmywa się preparat gazą zanurzoną w chłodnej wodzie. Zabieg  troszeczkę boli, ale czego się nie robi dla urody :) Czas zabiegu ustala się w zależności od obszarów ciała, które  chcemy ujędrnić.</li>
             </ul>
 
-            <p className="Offer__group-title">Zajęcia sportowo-rekreacyjne:</p>
-            <ul>
-                <li><span>tenis stołowy</span> - wypożyczenie stołu do gry indywidualnej, grupowej  lub z instruktorem.</li> 
-                <li><span>Ćwiczenia „zdrowy kręgosłup"</span> - ćwiczenia ogólnorozwojowe dla osób wykonujących pracę siedzącą, dostosowane do indywidualnych możliwości, prowadzone w kameralnych grupach.</li> 
-                <li><span>Gimnastyka korekcyjna dla dzieci i młodzieży</span> - ćwiczenia w małych grupach z naciskiem na indywidualne potrzeby wg rodzaju wad postawy.</li> 
-                <li><span>Warsztaty</span> - wydarzenia promujące zdrowy tryb życia, aktywne zagospodarowanie czasu wolnego, techniki  relaksacji itp. wg  harmonogramu. </li> 
-            </ul>
-
             <p>Nie wiesz jaki masaż wybrać? Zarezerwuj dowolny zabieg z odpowiednią ilością czasu (optymalnie 45min.-1godz.) a rodzaj masażu ustalisz z naszym specjalistą.</p>
         </div>
     )
