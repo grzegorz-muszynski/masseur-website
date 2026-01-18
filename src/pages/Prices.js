@@ -8,24 +8,28 @@ export default function Prices() {
             <table>
                 <tbody>
                     <tr>
+                        <td>15 min.</td>
+                        <td>50 zł</td>
+                    </tr>
+                    <tr>
                         <td>30 min.</td>
-                        <td>90 zł</td>
+                        <td>100 zł</td>
                     </tr>
                     <tr>
                         <td>45 min.</td>
-                        <td>130 zł</td>
+                        <td>140 zł</td>
                     </tr>
                     <tr>
                         <td>60 min.</td>
-                        <td>160 zł</td>
+                        <td>180 zł</td>
                     </tr>
                     <tr>
                         <td>75 min.</td>
-                        <td>190 zł</td>
+                        <td>220 zł</td>
                     </tr>
                     <tr>
                         <td>90 min.</td>
-                        <td>220 zł</td>
+                        <td>250 zł</td>
                     </tr>
                 </tbody>   
             </table>
