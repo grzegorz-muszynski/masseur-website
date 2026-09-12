@@ -5,7 +5,7 @@ export default function OnlineBookingBtn({ hasBackground, text='UMÓW WIZYTĘ ON
     const buttonClass = hasBackground ? "onlineBtn pulse" : "onlineBtn";
 
     return (
-        <a href="https://appointment-booking-six.vercel.app/" className={buttonClass}>
+        <a href="https://rezerwacje.odnowa-kubik.eu/" className={buttonClass}>
             {text}
         </a>
     );
